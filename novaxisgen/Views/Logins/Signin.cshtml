@@ -1,0 +1,491 @@
+﻿
+@{
+    Layout = null;
+}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Genesis</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&amp;display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      background: #000;
+    }
+
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      height: 100%;
+      flex-direction: row;
+    }
+
+    .login-section {
+      width: 40%;
+      max-width: 450px;
+      min-width: 300px;
+      background: rgba(0, 255, 255, 0.05);
+      border-left: 4px solid #00e0ff33;
+      border-radius: 0 20px 20px 0;
+      padding: 20px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: 10px 0 40px rgba(0, 255, 255, 0.1);
+      animation: floatPanel 8s ease-in-out infinite;
+    }
+
+    @@keyframes floatPanel {
+
+      0%,
+      100% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-4px);
+      }
+    }
+
+    .login-title h2 {
+      color: #00e0ff;
+      margin: 0 0 10px;
+      text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    }
+
+    .login-title p {
+      margin: 0 0 30px;
+      color: #aee0ff;
+      font-size: 14px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      color: #00e0ff;
+      font-size: 12px;
+      display: block;
+      margin-bottom: 5px;
+      text-shadow: 0 0 5px #00e0ff77;
+      letter-spacing: 1px;
+    }
+
+    .form-group i {
+      margin-right: 6px;
+      opacity: 0.8;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(0, 255, 255, 0.15);
+      color: #fff;
+      border-radius: 6px;
+      box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.05);
+    }
+
+    .login-btn {
+      background: linear-gradient(90deg, #00fff7, #0072ff);
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      padding: 14px;
+      margin-top: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+      animation: glowPulse 2s infinite ease-in-out;
+    }
+
+    @@keyframes glowPulse {
+
+      0%,
+      100% {
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+      }
+
+      50% {
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+      }
+    }
+
+    .forgot-password {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 15px;
+      color: #aee0ff;
+      text-decoration: none;
+    }
+
+    .forgot-password:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    /* RESPONSIVE */
+    @@media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .login-section {
+        width: 100%;
+        border-left: none;
+        border-radius: 14px;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+        padding: 40px 20px;
+        animation: none;
+      }
+
+      .login-title h2 {
+        text-align: center;
+        font-size: 22px;
+      }
+
+      .login-title p {
+        text-align: center;
+        font-size: 13px;
+      }
+
+      .login-btn {
+        font-size: 14px;
+        padding: 12px;
+      }
+    }
+  </style>
+  <script src="//code.jivosite.com/widget/Af2EpeeaI4" async=""></script>
+<style>.--savior-overlay-transform-reset {
+  transform: none !important;
+}
+.--savior-overlay-z-index-top {
+  z-index: 2147483643 !important;
+}
+.--savior-overlay-position-relative {
+  position: relative;
+}
+.--savior-overlay-position-static {
+  position: static !important;
+}
+.--savior-overlay-overflow-hidden {
+  overflow: hidden !important;
+}
+.--savior-overlay-overflow-x-visible {
+  overflow-x: visible !important;
+}
+.--savior-overlay-overflow-y-visible {
+  overflow-y: visible !important;
+}
+.--savior-overlay-z-index-reset {
+  z-index: auto !important;
+}
+.--savior-overlay-display-none {
+  display: none !important;
+}
+.--savior-overlay-clearfix {
+  clear: both;
+}
+.--savior-overlay-reset-filter {
+  filter: none !important;
+  backdrop-filter: none !important;
+}
+.--savior-tooltip-host {
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+}
+/*Override css styles for Twitch.tv*/
+main.--savior-overlay-z-index-reset {
+  z-index: auto !important;
+}
+.modal__backdrop.--savior-overlay-z-index-reset {
+  position: static !important;
+}
+main.--savior-overlay-z-index-top {
+  z-index: auto !important;
+}
+main.--savior-overlay-z-index-top .channel-root__player-container + div,
+main.--savior-overlay-z-index-top .video-player-hosting-ui__container + div {
+  opacity: 0.1;
+}
+/*Dirty hack for facebook big video page e.g: https://www.facebook.com/abc/videos/...*/
+.--savior-backdrop {
+  position: fixed !important;
+  z-index: 2147483642 !important;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw !important;
+  background-color: rgba(0,0,0,0.9);
+}
+.--savior-overlay-twitter-video-player {
+  position: fixed;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+}
+.--savior-overlay-z-index-reset [class*="DivSideNavContainer"],
+.--savior-overlay-z-index-reset [class*="DivHeaderContainer"],
+.--savior-overlay-z-index-reset [class*="DivBottomContainer"],
+.--savior-overlay-z-index-reset [class*="DivCategoryListWrapper"],
+.--savior-overlay-z-index-reset [data-testid="sidebarColumn"],
+.--savior-overlay-z-index-reset header[role="banner"],
+.--savior-overlay-z-index-reset [data-testid="cellInnerDiv"]:not(.--savior-overlay-z-index-reset),
+.--savior-overlay-z-index-reset [aria-label="Home timeline"]>div:first-child,
+.--savior-overlay-z-index-reset [aria-label="Home timeline"]>div:nth-child(3) {
+  z-index: -1 !important;
+}
+.--savior-overlay-z-index-reset [data-testid="cellInnerDiv"] .--savior-backdrop+div {
+  z-index: 2147483643 !important;
+}
+.--savior-overlay-z-index-reset [data-testid="primaryColumn"]>[aria-label="Home timeline"] {
+  z-index: 0 !important;
+}
+.--savior-overlay-z-index-reset#mtLayer,
+.--savior-overlay-z-index-reset.media-layer {
+  z-index: 3000 !important;
+}
+.--savior-overlay-position-relative [class*="SecBar_secBar_"],
+.--savior-overlay-position-relative .woo-box-flex [class*="Frame_top_"] {
+  z-index: 0 !important;
+}
+.--savior-overlay-position-relative .vue-recycle-scroller__item-view:not(.--savior-overlay-z-index-reset),
+.--savior-overlay-position-relative .woo-panel-main[class*="BackTop_main_"],
+.--savior-overlay-position-relative [class*="Main_side_"] {
+  z-index: -1 !important;
+}
+/* Fix conflict css with zingmp3 */
+.zm-video-modal.--savior-overlay-z-index-reset {
+  position: absolute;
+}
+/* Dirty hack for xvideos99 */
+#page #main.--savior-overlay-z-index-reset {
+  z-index: auto !important;
+}
+/* Overlay for ok.ru */
+#vp_w.--savior-overlay-z-index-reset.media-layer.media-layer__video {
+  overflow-y: hidden;
+  z-index: 2147483643 !important;
+}
+/* Fix missing controller for tv.naver.com */
+.--savior-overlay-z-index-top.rmc_controller,
+.--savior-overlay-z-index-top.rmc_setting_intro,
+.--savior-overlay-z-index-top.rmc_highlight,
+.--savior-overlay-z-index-top.rmc_control_settings {
+  z-index: 2147483644 !important;
+}
+/* Dirty hack for douyi.com */
+.swiper-wrapper.--savior-overlay-z-index-reset .swiper-slide:not(.swiper-slide-active),
+.swiper-wrapper.--savior-overlay-transform-reset .swiper-slide:not(.swiper-slide-active) {
+  display: none;
+}
+.videoWrap + div > div {
+  pointer-events: unset;
+}
+/* Dirty hack for fpt.ai */
+.mfp-wrap.--savior-overlay-z-index-top {
+  position: relative;
+}
+.mfp-wrap.--savior-overlay-z-index-top .mfp-close {
+  display: none;
+}
+.mfp-wrap.--savior-overlay-z-index-top .mfp-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset + nav {
+  z-index: -1 !important;
+}
+section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset section.--savior-overlay-z-index-reset div.--savior-overlay-z-index-reset ~ div {
+  position: relative;
+}
+.watching-movie #video-player.--savior-overlay-z-index-top {
+  z-index: 2147483644 !important;
+}
+div[class^="tiktok"].--savior-overlay-z-index-reset {
+  z-index: 2147483644 !important;
+}
+.--savior-lightoff-fix section:not(:has([class*="--savior-overlay-"])),
+.--savior-lightoff-fix section.section_video ~ section {
+  z-index: -1;
+  position: relative;
+}
+.--savior-lightoff-fix header,
+.--savior-lightoff-fix footer,
+.--savior-lightoff-fix .top-header,
+.--savior-lightoff-fix .swiper-container,
+.--savior-lightoff-fix #to_top,
+.--savior-lightoff-fix #button-adblock {
+  z-index: -1 !important;
+}
+@@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+</style><link rel="stylesheet" href="https://code.jivosite.com/css/0c683f0/widget.css" class="jv-css"></head>
+<body>
+
+    <canvas id="space" width="920" height="744"></canvas>
+
+    <div class="container">
+        <div class="login-section">
+            <div class="login-title">
+                <img src="https://genesis-tech.net/assets/media/logos/demo2.png" alt="Logo" style="max-width: 300px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">
+                <h2>Access Protocol</h2>
+                <p>Authentication Required</p>
+            </div>
+            <form method="POST" action="@Url.Action("Index","Home")">
+                <input type="hidden" name="_token" value="YH622JDNuKJdrasxqGnsq8LqiXgDzGyowJN19uyR" autocomplete="off">        <div class="form-group">
+                    <label><i class="fas fa-user-astronaut"></i> USERNAME</label>
+                    <input type="text" name="login" required="" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-lock"></i> PASSWORD</label>
+                    <input type="password" name="password" required="" placeholder="Password">
+                </div>
+                <button type="submit" class="login-btn">Sign In</button>
+            </form>
+            <a href="https://genesis-tech.net/forgot-password" class="forgot-password">
+                Forget Password
+            </a>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('space');
+        const ctx = canvas.getContext('2d');
+        let stars = [],
+            comets = [];
+
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        function Star() {
+            this.x = Math.random() * canvas.width;
+            this.y = Math.random() * canvas.height;
+            this.r = Math.random() * 1.5;
+            this.a = Math.random();
+            this.da = Math.random() * 0.02;
+            this.draw = () => {
+                this.a += this.da;
+                if (this.a <= 0.1 || this.a >= 1) this.da *= -1;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(255,255,255,${this.a})`;
+                ctx.fill();
+            };
+        }
+
+        function Comet() {
+            this.x = Math.random() * canvas.width;
+            this.y = Math.random() * canvas.height / 2;
+            this.dx = Math.random() * 1 + 0.5;
+            this.dy = Math.random() * 0.5 + 0.2;
+            this.length = 10 + Math.random() * 10;
+            this.draw = () => {
+                for (let i = 0; i < this.length; i++) {
+                    ctx.beginPath();
+                    ctx.arc(this.x - i * this.dx, this.y - i * this.dy, 1.5, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(255,255,255,${1 - i / this.length})`;
+                    ctx.fill();
+                }
+                this.x += this.dx;
+                this.y += this.dy;
+                if (this.x > canvas.width || this.y > canvas.height) {
+                    this.x = -20;
+                    this.y = Math.random() * canvas.height / 2;
+                }
+            };
+        }
+
+        function init() {
+            stars = Array.from({
+                length: 200
+            }, () => new Star());
+            comets = Array.from({
+                length: 5
+            }, () => new Comet());
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            stars.forEach(s => s.draw());
+            comets.forEach(c => c.draw());
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', () => {
+            resize();
+            init();
+        });
+
+        resize();
+        init();
+        animate();
+    </script>
+
+
+
+    <div id="jivo-iframe-container" style="opacity: 0; visibility: hidden; width: 0px; height: 0px; overflow: hidden;"><iframe src="" role="presentation" allow="autoplay" title="Jivochat" name="jivo_container" id="jivo_container" frameborder="no"></iframe></div>
+    <jdiv><jdiv class="globalClass__oV0QR global__cNnIV __light__jAKEz __grey__brjjd jv-copyright jv-windows jv-chrome jv-desktop" style="--jv-font-family: 'Arial', 'Arial', sans-serif;"><jdiv class="wrap__kT1Pt _orientationRight__pVg61 _show__kwRoQ _hoverMenu__sZqlt __jivoDesktopButton"><jdiv class="button__y2bBi" style="background: linear-gradient(95deg, rgb(91, 61, 166) 20%, rgb(130, 168, 251) 80%);"><jdiv class="iconWrap__PmW52 _showLogo__SHzsF"><jdiv class="jivoIcon__Hsk2h icons__MA9W_" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%2235%22%20viewBox%3D%220%200%209%2035%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M1.31%2034.966H.975c-.295%200-.53-.09-.71-.27C.09%2034.516%200%2034.3%200%2034.05v-2.33c0-.25.097-.465.288-.645.193-.18.42-.27.687-.27H1.3c1.776%200%203.223-1.37%203.238-3.06v-8.94H.975c-.236%200-.458-.09-.665-.27-.206-.18-.31-.395-.31-.645v-2.33c0-.223.104-.43.31-.625.207-.194.43-.292.665-.292h7.019c.266%200%20.494.09.687.27.192.182.29.396.29.646V27.77c0%20.032-.008.058-.01.09-.08%203.937-3.477%207.098-7.65%207.104zM.318%200C-.25%2011.117%208.62%2012.702%208.62%2012.702%208.17.522.318%200%20.318%200z%22%2F%3E%3C%2Fsvg%3E%0A&quot;);"></jdiv><jdiv class="logoIconCloud__O6DHQ icons__MA9W_" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width%3D%2230%22%20height%3D%2231%22%20viewBox%3D%220%200%2030%2031%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M2.967%2022.226l-.025.008s7.698%2013.9%2026.975%205.546c0%200-1.495-1.752-4.384-3.52a14.067%2014.067%200%200%200%202.588-14.047c-2.655-7.297-10.7-11.07-17.964-8.425C2.89%204.433-.847%2012.492%201.81%2019.79c.313.863.703%201.677%201.157%202.436z%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv></jdiv><jdiv class="menuWrap__OC_0_ __hover__ATu56"></jdiv></jdiv><jdiv id="jcont" translate="no" class="notranslate" style="animation-duration: 300ms; animation-timing-function: cubic-bezier(0.39, 0.24, 0.21, 0.99); animation-delay: 0s; animation-iteration-count: 1; animation-direction: normal; animation-fill-mode: both; animation-play-state: running; animation-name: WidgetContainer_CLOSE_WIDGET__QqfP2; --jright: 30px; --jheight: 496px; display: block; position: fixed;"><jdiv dir="ltr" id="jivo_action" class="wrap__kR9lT"><jdiv id="jivo_close_button" class="closeButton__Ej_rN"><jdiv class="closeIcon__taf1A" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(2%202)%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%20fill%3D%22%23FFF%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212.75%22%20stroke%3D%22%23222D38%22%20stroke-width%3D%221.5%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23222D38%22%20opacity%3D%221%22%20transform%3D%22translate(6%206)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22rotate(45%206.24%206.01)%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22scale(-1%201)%20rotate(45%200%20-9.058)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv></jdiv></jdiv><jdiv class="jv-pseudo-height"></jdiv><jdiv class="jv-mouse-track"></jdiv></jdiv></jdiv>
+</body>

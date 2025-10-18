@@ -1,0 +1,712 @@
+﻿@{
+    Layout = null;
+}
+<head>
+    <base href="../../../">
+    <title>Genesis | Register</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://genesis-tech.net/register">
+    <link rel="shortcut icon" href="assets/media/logos/favicon.ico">
+
+    <!--begin::Fonts(mandatory for all pages)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700">
+    <!--end::Fonts-->
+    <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
+    <link href="/css/plugins.bundle.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.bundle.css" rel="stylesheet" type="text/css">
+    <script src="//code.jivosite.com/widget/Af2EpeeaI4" async=""></script>
+    <!--end::Global Stylesheets Bundle-->
+
+    <script>
+        // Frame-busting to prevent site from being loaded within a frame without permission (click-jacking)
+        if (window.top != window.self) {
+            window.top.location.replace(window.self.location.href);
+        }
+    </script>
+    <link rel="stylesheet" href="https://code.jivosite.com/css/0c683f0/widget.css" class="jv-css">
+    <style>
+        .--savior-overlay-transform-reset {
+            transform: none !important;
+        }
+
+        .--savior-overlay-z-index-top {
+            z-index: 2147483643 !important;
+        }
+
+        .--savior-overlay-position-relative {
+            position: relative;
+        }
+
+        .--savior-overlay-position-static {
+            position: static !important;
+        }
+
+        .--savior-overlay-overflow-hidden {
+            overflow: hidden !important;
+        }
+
+        .--savior-overlay-overflow-x-visible {
+            overflow-x: visible !important;
+        }
+
+        .--savior-overlay-overflow-y-visible {
+            overflow-y: visible !important;
+        }
+
+        .--savior-overlay-z-index-reset {
+            z-index: auto !important;
+        }
+
+        .--savior-overlay-display-none {
+            display: none !important;
+        }
+
+        .--savior-overlay-clearfix {
+            clear: both;
+        }
+
+        .--savior-overlay-reset-filter {
+            filter: none !important;
+            backdrop-filter: none !important;
+        }
+
+        .--savior-tooltip-host {
+            z-index: 9999;
+            position: absolute;
+            top: 0;
+        }
+        /*Override css styles for Twitch.tv*/
+        main.--savior-overlay-z-index-reset {
+            z-index: auto !important;
+        }
+
+        .modal__backdrop.--savior-overlay-z-index-reset {
+            position: static !important;
+        }
+
+        main.--savior-overlay-z-index-top {
+            z-index: auto !important;
+        }
+
+            main.--savior-overlay-z-index-top .channel-root__player-container + div,
+            main.--savior-overlay-z-index-top .video-player-hosting-ui__container + div {
+                opacity: 0.1;
+            }
+        /*Dirty hack for facebook big video page e.g: https://www.facebook.com/abc/videos/...*/
+        .--savior-backdrop {
+            position: fixed !important;
+            z-index: 2147483642 !important;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw !important;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .--savior-overlay-twitter-video-player {
+            position: fixed;
+            width: 80%;
+            height: 80%;
+            top: 10%;
+            left: 10%;
+        }
+
+        .--savior-overlay-z-index-reset [class*="DivSideNavContainer"],
+        .--savior-overlay-z-index-reset [class*="DivHeaderContainer"],
+        .--savior-overlay-z-index-reset [class*="DivBottomContainer"],
+        .--savior-overlay-z-index-reset [class*="DivCategoryListWrapper"],
+        .--savior-overlay-z-index-reset [data-testid="sidebarColumn"],
+        .--savior-overlay-z-index-reset header[role="banner"],
+        .--savior-overlay-z-index-reset [data-testid="cellInnerDiv"]:not(.--savior-overlay-z-index-reset),
+        .--savior-overlay-z-index-reset [aria-label="Home timeline"] > div:first-child,
+        .--savior-overlay-z-index-reset [aria-label="Home timeline"] > div:nth-child(3) {
+            z-index: -1 !important;
+        }
+
+        .--savior-overlay-z-index-reset [data-testid="cellInnerDiv"] .--savior-backdrop + div {
+            z-index: 2147483643 !important;
+        }
+
+        .--savior-overlay-z-index-reset [data-testid="primaryColumn"] > [aria-label="Home timeline"] {
+            z-index: 0 !important;
+        }
+
+        .--savior-overlay-z-index-reset#mtLayer,
+        .--savior-overlay-z-index-reset.media-layer {
+            z-index: 3000 !important;
+        }
+
+        .--savior-overlay-position-relative [class*="SecBar_secBar_"],
+        .--savior-overlay-position-relative .woo-box-flex [class*="Frame_top_"] {
+            z-index: 0 !important;
+        }
+
+        .--savior-overlay-position-relative .vue-recycle-scroller__item-view:not(.--savior-overlay-z-index-reset),
+        .--savior-overlay-position-relative .woo-panel-main[class*="BackTop_main_"],
+        .--savior-overlay-position-relative [class*="Main_side_"] {
+            z-index: -1 !important;
+        }
+        /* Fix conflict css with zingmp3 */
+        .zm-video-modal.--savior-overlay-z-index-reset {
+            position: absolute;
+        }
+        /* Dirty hack for xvideos99 */
+        #page #main.--savior-overlay-z-index-reset {
+            z-index: auto !important;
+        }
+        /* Overlay for ok.ru */
+        #vp_w.--savior-overlay-z-index-reset.media-layer.media-layer__video {
+            overflow-y: hidden;
+            z-index: 2147483643 !important;
+        }
+        /* Fix missing controller for tv.naver.com */
+        .--savior-overlay-z-index-top.rmc_controller,
+        .--savior-overlay-z-index-top.rmc_setting_intro,
+        .--savior-overlay-z-index-top.rmc_highlight,
+        .--savior-overlay-z-index-top.rmc_control_settings {
+            z-index: 2147483644 !important;
+        }
+        /* Dirty hack for douyi.com */
+        .swiper-wrapper.--savior-overlay-z-index-reset .swiper-slide:not(.swiper-slide-active),
+        .swiper-wrapper.--savior-overlay-transform-reset .swiper-slide:not(.swiper-slide-active) {
+            display: none;
+        }
+
+        .videoWrap + div > div {
+            pointer-events: unset;
+        }
+        /* Dirty hack for fpt.ai */
+        .mfp-wrap.--savior-overlay-z-index-top {
+            position: relative;
+        }
+
+            .mfp-wrap.--savior-overlay-z-index-top .mfp-close {
+                display: none;
+            }
+
+            .mfp-wrap.--savior-overlay-z-index-top .mfp-content {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+        section.--savior-overlay-z-index-reset > main[role="main"].--savior-overlay-z-index-reset + nav {
+            z-index: -1 !important;
+        }
+
+        section.--savior-overlay-z-index-reset > main[role="main"].--savior-overlay-z-index-reset section.--savior-overlay-z-index-reset div.--savior-overlay-z-index-reset ~ div {
+            position: relative;
+        }
+
+        .watching-movie #video-player.--savior-overlay-z-index-top {
+            z-index: 2147483644 !important;
+        }
+
+        div[class^="tiktok"].--savior-overlay-z-index-reset {
+            z-index: 2147483644 !important;
+        }
+
+        .--savior-lightoff-fix section:not(:has([class*="--savior-overlay-"])),
+        .--savior-lightoff-fix section.section_video ~ section {
+            z-index: -1;
+            position: relative;
+        }
+
+        .--savior-lightoff-fix header,
+        .--savior-lightoff-fix footer,
+        .--savior-lightoff-fix .top-header,
+        .--savior-lightoff-fix .swiper-container,
+        .--savior-lightoff-fix #to_top,
+        .--savior-lightoff-fix #button-adblock {
+            z-index: -1 !important;
+        }
+
+        @@-moz-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @@-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @@-o-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @@keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body id="kt_body" class="auth-bg bgi-size-cover bgi-attachment-fixed bgi-position-center bgi-no-repeat">
+    <canvas id="space" width="1104" height="892" style="width: 920px; height: 744px;"></canvas>
+
+    <style>
+        /* Canvas de fundo sempre atrás e sem capturar cliques */
+        #space {
+            position: fixed;
+            inset: 0;
+            z-index: -1; /* atrás de tudo */
+            pointer-events: none; /* não bloqueia cliques */
+            background: #000; /* fundo sempre preto */
+        }
+    </style>
+    <style>
+        /* Evita barras de rolagem horizontais e altura travada */
+        html, body {
+            min-height: 100vh;
+            height: auto !important;
+            overflow-y: auto !important;
+            overflow-x: hidden !important;
+        }
+
+        /* Metronic wrappers: não prenda altura nem overflow */
+        #kt_wrapper,
+        #kt_body,
+        #kt_content,
+        #content,
+        #main,
+        #wrapper,
+        #kt_content_container {
+            height: auto !important;
+            min-height: unset !important;
+            overflow: visible !important;
+        }
+
+        /* Canvas de fundo não deve gerar scroll */
+        #space {
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            pointer-events: none;
+            background: #000;
+            display: block; /* evita inline gaps */
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        /* Reduz risco de overflow por “linhas” fora de container */
+        .row {
+            --bs-gutter-x: 1.5rem;
+        }
+
+            .row.no-overflow,
+            .auth-form {
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+
+        /* Sanitiza elementos que usam 100vw em pais com padding */
+        .w-100vw, [style*="100vw"] {
+            width: 100% !important;
+        }
+    </style>
+
+    <!--begin::Theme mode setup on page load-->
+    <script>
+        var defaultThemeMode = "dark";
+        var themeMode;
+        if (document.documentElement) {
+            if (document.documentElement.hasAttribute("data-bs-theme-mode")) {
+                themeMode = document.documentElement.getAttribute("data-bs-theme-mode");
+            } else {
+                if (localStorage.getItem("data-bs-theme") !== null) {
+                    themeMode = localStorage.getItem("data-bs-theme");
+                } else {
+                    themeMode = defaultThemeMode;
+                }
+            }
+            if (themeMode === "system") {
+                themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            }
+            document.documentElement.setAttribute("data-bs-theme", themeMode);
+        }
+    </script>
+
+
+    <!--end::Theme mode setup on page load-->
+    <!--begin::Main-->
+    <!--begin::Root-->
+    <div class="d-flex flex-column flex-root">
+        <style>
+            /* Força todos os campos do form a ocuparem 100% da largura do card */
+            .auth-form .fv-row .form-control,
+            .auth-form .fv-row .form-select {
+                width: 100% !important;
+            }
+            /* Select2 wrapper */
+            .auth-form .select2-container {
+                width: 100% !important;
+            }
+        </style>
+        <!--end::Fix widths-->
+        <!--begin::Authentication - Sign-up -->
+        <div class="d-flex flex-column flex-column-fluid flex-lg-row">
+            <!--begin::Aside-->
+            <div class="d-flex flex-center w-lg-50 pt-15 pt-lg-0 px-10">
+                <div class="d-flex flex-center flex-lg-start flex-column">
+                    <!--begin::Logo-->
+                    <a href="https://genesis-tech.net/login" class="mb-7">
+                        <img alt="Logo" src="/Image/demo2.png" class="h-80px">
+                    </a>
+                    <!--end::Logo-->
+                    <!--begin::Title-->
+                    <h2 class="text-white fw-normal m-0 fs-3x">Success starts here</h2>
+                    <!--end::Title-->
+                </div>
+            </div>
+            <!--end::Aside-->
+            <!--begin::Body-->
+            <div class="d-flex flex-column-fluid flex-lg-row-auto justify-content-center justify-content-lg-end p-12 p-lg-20">
+                <!--begin::Card-->
+                <div class="bg-body d-flex flex-column align-items-stretch flex-center rounded-4 w-md-600px p-20">
+                    <!--begin::Wrapper-->
+                    <div class="d-flex flex-center flex-column flex-column-fluid px-lg-10 pb-15 pb-lg-20">
+
+                        <!--begin::Form / Alert-->
+                        <form class="form w-100 auth-form fv-plugins-bootstrap5 fv-plugins-framework" novalidate="novalidate" id="kt_sign_up_form" data-kt-redirect-url="/login" action="#">
+                            <input type="hidden" name="_token" value="y3QlsQpH7lQzvai1ePRjjg2mpe4vOXTZjvgi1i76" autocomplete="off">                                <input type="hidden" name="id_businessintroductor" value="eyJpdiI6IldQWXJOdWRvZC81cjJNUGpjM21vd0E9PSIsInZhbHVlIjoiM3Q1TXlsMms3ZG1pajVPODlEcFNHdz09IiwibWFjIjoiMzExMmMwM2RjNGQ2NDE4MTBkODEyODliYTM5ZGRjM2RmZTAzMjJjMzlmMjU1YmQzYjhiYmEzZTAwZTA1ZjY2MSIsInRhZyI6IiJ9">
+
+                            <!--begin::Heading-->
+                            <div class="text-center mb-11">
+                                <h1 class="text-gray-900 fw-bolder mb-3">Sign Up</h1>
+                                <div class="text-gray-500 fw-semibold fs-6">Create New Account</div>
+                            </div>
+                            <!--end::Heading-->
+                            <!--begin::Sponsor login (display only)-->
+                            <div class="fv-row mb-8">
+                                <input type="text" autocomplete="off" value="trimy168" class="form-control text-center w-100" style="background-color:#74c3f4" disabled="">
+                            </div>
+                            <!--end::Sponsor login-->
+                            <!--begin::Language select (NEW, abaixo do login)-->
+                            <div class="fv-row mb-8">
+                                <label class="form-label text-muted small mb-2">Country</label>
+                                <select id="langSelect" name="lang" class="form-select bg-transparent w-100 select2-hidden-accessible" style="width:100%" aria-label="Language" data-kt-select2="true" data-placeholder="Language" tabindex="-1" aria-hidden="true" data-kt-initialized="1" data-select2-id="select2-data-langSelect">
+                                    <option value="en" data-url="https://genesis-tech.net/lang/en" data-flag="/Image/flags/en.svg" selected="" data-select2-id="select2-data-22-3pd3">
+                                        English
+                                    </option>
+                                    <option value="es" data-url="https://genesis-tech.net/lang/es" data-flag="/Image/flags/es.svg">
+                                        Español
+                                    </option>
+                                    <option value="cn" data-url="https://genesis-tech.net/lang/cn" data-flag="/Image/flags/cn.svg">
+                                        中國人
+                                    </option>
+                                    <option value="vn" data-url="https://genesis-tech.net/lang/vn" data-flag="/Image/flags/vn.svg">
+                                        Tiếng Việt
+                                    </option>
+                                    <option value="jp" data-url="https://genesis-tech.net/lang/jp" data-flag="/Image/flags/jp.svg">
+                                        日本語
+                                    </option>
+                                    <option value="kr" data-url="https://genesis-tech.net/lang/kr" data-flag="/Image/flags/kr.svg">
+                                        한국어
+                                    </option>
+                                    <option value="ru" data-url="https://genesis-tech.net/lang/ru" data-flag="/Image/flags/ru.svg">
+                                        русский
+                                    </option>
+                                    <option value="fr" data-url="https://genesis-tech.net/lang/fr" data-flag="/Image/flags/fr.svg">
+                                        Français
+                                    </option>
+                                    <option value="de" data-url="https://genesis-tech.net/lang/de" data-flag="/Image/flags/de.svg">
+                                        Deutsch
+                                    </option>
+                                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-21-rqja" style="width: 100%;">
+                                    
+                                
+                            </div>
+
+                            <!--end::Language select-->
+                            <!--begin::Email-->
+                            <div class="fv-row mb-8 fv-plugins-icon-container">
+                                <input type="email" placeholder="Email Address" name="email" autocomplete="off" class="form-control bg-transparent w-100">
+                                <div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div>
+                            </div>
+                            <!--end::Email-->
+                            <!--begin::Username-->
+                            <div class="fv-row mb-8 fv-plugins-icon-container">
+                                <input type="text" placeholder="Username" name="login" autocomplete="off" class="form-control bg-transparent w-100">
+                                <div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div>
+                            </div>
+                            <!--end::Username-->
+                            <!--begin::Password-->
+                            <div class="fv-row mb-8 fv-plugins-icon-container" data-kt-password-meter="true">
+                                <div class="mb-1">
+                                    <div class="position-relative mb-3">
+                                        <input class="form-control bg-transparent w-100" type="password" placeholder="Password" name="password" autocomplete="off">
+                                        <span class="btn btn-sm btn-icon position-absolute translate-middle top-50 end-0 me-n2" data-kt-password-meter-control="visibility">
+                                            <i class="ki-duotone ki-eye-slash fs-2"></i>
+                                            <i class="ki-duotone ki-eye fs-2 d-none"></i>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-3" data-kt-password-meter-control="highlight">
+                                        <div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px me-2"></div>
+                                        <div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px me-2"></div>
+                                        <div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px me-2"></div>
+                                        <div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px"></div>
+                                    </div>
+                                </div>
+                                <div class="text-muted">Use 8 or more characters with a mix of letters, numbers &amp; symbols.</div>
+                                <div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div>
+                            </div>
+                            <!--end::Password-->
+                            <!--begin::Confirm Password-->
+                            <div class="fv-row mb-8">
+                                <input placeholder="Confirm Password" name="confirmPassword" type="password" autocomplete="off" class="form-control bg-transparent w-100">
+                            </div>
+                            <!--end::Confirm Password-->
+                            <!--begin::Wallet-->
+                            <div class="fv-row mb-8 fv-plugins-icon-container">
+                                <input type="text" placeholder="Wallet Address (USDT.BEP20)" name="wallet_address" autocomplete="off" class="form-control bg-transparent w-100">
+                                <div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div>
+                            </div>
+                            <!--end::Wallet-->
+                            <!--begin::Submit-->
+                            <div class="d-grid mb-10">
+                                <button type="submit" id="kt_sign_up_submit" class="btn" style="background-color:#0688d2">
+                                    <span class="indicator-label">Sign Up</span>
+                                    <span class="indicator-progress">
+                                        Please wait...
+                                        <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                                    </span>
+                                </button>
+                            </div>
+                            <!--end::Submit-->
+                            <!--begin::Sign in link-->
+                            <div class="text-gray-500 text-center fw-semibold fs-6">
+                                Already registered?
+                                <a href="@Url.Action("Signin","Logins")" style="color:#74c3f4" class="fw-semibold">Sign In</a>
+                            </div>
+                            <!--end::Sign in link-->
+                        </form>
+
+
+                        <form id="langSwitchForm" method="GET" action="" class="d-none"></form>
+                        <!--end::Form / Alert-->
+
+                    </div>
+                    <!--end::Wrapper-->
+                    <!--begin::Footer (sem seletor antigo de idiomas)-->
+                    <div class="d-flex flex-stack px-lg-10">
+                        <!-- vazio -->
+                    </div>
+                    <!--end::Footer-->
+                </div>
+                <!--end::Card-->
+            </div>
+            <!--end::Body-->
+        </div>
+        <!--end::Authentication - Sign-up-->
+    </div>
+    <!--end::Root-->
+    <!--end::Main-->
+    <!--begin::Javascript-->
+    <script>var hostUrl = "assets/";</script>
+
+    <!--begin::Global Javascript Bundle(mandatory for all pages)-->
+    <script src="/js/plugins.bundle.js"></script>
+    <script src="/js/scripts.bundle.js"></script>
+    <!--end::Global Javascript Bundle-->
+    <!--begin::Custom Javascript(used for this page only)-->
+    <script src="/js/general.js"></script>
+    <!--end::Custom Javascript-->
+    <!--begin::Language select behavior (robusto + largura 100% no Select2)-->
+    <script>
+        (function () {
+            function toAbsolute(url) {
+                if (!url) return '';
+                if (/^https?:\/\//i.test(url)) return url;        // já absoluta
+                if (url.charAt(0) !== '/') url = '/' + url;       // garante leading slash
+                return window.location.origin + url;
+            }
+            function go(url) {
+                var f = document.getElementById('langSwitchForm');
+                if (!f) { window.location.assign(url); return; }
+                f.setAttribute('action', url);
+                f.submit();
+            }
+            function onChangeLang(value, urlRaw) {
+                var url = toAbsolute(urlRaw);
+                if (url) go(url);
+            }
+            document.addEventListener('DOMContentLoaded', function () {
+                var sel = document.getElementById('langSelect');
+                if (!sel) return;
+
+                // Inicializa Select2 com largura total se disponível (Metronic)
+                if (window.jQuery && jQuery.fn && jQuery.fn.select2) {
+                    jQuery(sel).select2({ width: '100%' });
+                    jQuery(sel).on('select2:select', function () {
+                        var opt = sel.options[sel.selectedIndex];
+                        onChangeLang(sel.value, opt && opt.getAttribute('data-url'));
+                    });
+                }
+
+                // Fallback para evento nativo
+                sel.addEventListener('change', function () {
+                    var opt = sel.options[sel.selectedIndex];
+                    onChangeLang(sel.value, opt && opt.getAttribute('data-url'));
+                });
+            });
+        })();
+    </script>
+    <script>
+        (function () {
+            function formatLang(opt) {
+                if (!opt.id) { return opt.text; }
+                var flag = opt.element.getAttribute('data-flag');
+                if (flag) {
+                    return $(
+                        '<span class="d-flex align-items-center">' +
+                        '<img src="' + flag + '" class="me-2 rounded-1" style="width:16px;height:16px;" />' +
+                        '<span>' + opt.text + '</span>' +
+                        '</span>'
+                    );
+                }
+                return opt.text;
+            };
+
+            document.addEventListener('DOMContentLoaded', function () {
+                var sel = $('#langSelect');
+                if (sel.length) {
+                    sel.select2({
+                        width: '100%',
+                        templateResult: formatLang,
+                        templateSelection: formatLang,
+                        escapeMarkup: function (m) { return m; } // permite HTML no resultado
+                    });
+
+                    sel.on('select2:select', function (e) {
+                        var opt = sel[0].options[sel[0].selectedIndex];
+                        var url = opt.getAttribute('data-url');
+                        if (url) { window.location.href = url; }
+                    });
+                }
+            });
+        })();
+    </script>
+
+    <!--end::Language select behavior-->
+    <!--end::Javascript-->
+    <script>
+        (function () {
+            const canvas = document.getElementById('space');
+            if (!canvas) return;
+
+            // Contexto com alpha para sobrepor o fundo preto sem “forçar” opacidade
+            const ctx = canvas.getContext('2d', { alpha: true });
+
+            // Para nitidez em telas retina sem “acelerar” a animação
+            const DPR = Math.min(window.devicePixelRatio || 1, 2);
+
+            let stars = [];
+            let comets = [];
+
+            function resize() {
+                const w = window.innerWidth;
+                const h = window.innerHeight;
+                canvas.style.width = w + 'px';
+                canvas.style.height = h + 'px';
+                canvas.width = Math.floor(w * DPR);
+                canvas.height = Math.floor(h * DPR);
+                ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+            }
+
+            function Star() {
+                this.x = Math.random() * window.innerWidth;
+                this.y = Math.random() * window.innerHeight;
+                this.r = Math.random() * 1.5 + 0.2;
+                this.a = Math.random() * 0.9 + 0.1;  // evita 0
+                this.da = (Math.random() * 0.02 + 0.005) * (Math.random() < 0.5 ? 1 : -1);
+                this.draw = () => {
+                    // brilho “piscando” suave e estável
+                    this.a += this.da;
+                    if (this.a <= 0.1 || this.a >= 1) this.da *= -1;
+
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(255,255,255,${this.a})`;
+                    ctx.fill();
+                };
+            }
+
+            function Comet() {
+                this.reset = () => {
+                    this.x = -20;
+                    this.y = Math.random() * window.innerHeight * 0.5;
+                    this.dx = Math.random() * 1 + 0.5;
+                    this.dy = Math.random() * 0.5 + 0.2;
+                    this.length = 10 + Math.random() * 10;
+                };
+                this.reset();
+                this.draw = () => {
+                    for (let i = 0; i < this.length; i++) {
+                        ctx.beginPath();
+                        ctx.arc(this.x - i * this.dx, this.y - i * this.dy, 1.5, 0, Math.PI * 2);
+                        ctx.fillStyle = `rgba(255,255,255,${1 - i / this.length})`;
+                        ctx.fill();
+                    }
+                    this.x += this.dx;
+                    this.y += this.dy;
+                    if (this.x > window.innerWidth || this.y > window.innerHeight) {
+                        this.reset();
+                    }
+                };
+            }
+
+            function init() {
+                stars = Array.from({ length: 200 }, () => new Star());
+                comets = Array.from({ length: 5 }, () => new Comet());
+            }
+
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                stars.forEach(s => s.draw());
+                comets.forEach(c => c.draw());
+                requestAnimationFrame(animate);
+            }
+
+            window.addEventListener('resize', () => {
+                resize();
+                // manter quantidade e reposicionar apenas se desejar um “redraw” completo
+                // init(); // opcional: reembaralhar estrelas/cometas ao redimensionar
+            });
+
+            resize();
+            init();
+            animate();
+        })();
+    </script>
+
+
+
+
+    <svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg>
+    <div id="jivo-iframe-container" style="opacity: 0; visibility: hidden; width: 0px; height: 0px; overflow: hidden;"><iframe src="" role="presentation" allow="autoplay" title="Jivochat" name="jivo_container" id="jivo_container" frameborder="no"></iframe></div>
+    <jdiv><jdiv class="globalClass__oV0QR global__cNnIV __light__jAKEz __grey__brjjd jv-copyright jv-windows jv-chrome jv-desktop" style="--jv-font-family: 'Arial', 'Arial', sans-serif;"><jdiv class="wrap__kT1Pt _orientationRight__pVg61 _show__kwRoQ _hoverMenu__sZqlt __jivoDesktopButton"><jdiv class="button__y2bBi" style="background: linear-gradient(95deg, rgb(91, 61, 166) 20%, rgb(130, 168, 251) 80%);"><jdiv class="iconWrap__PmW52 _showLogo__SHzsF"><jdiv class="jivoIcon__Hsk2h icons__MA9W_" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%2235%22%20viewBox%3D%220%200%209%2035%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M1.31%2034.966H.975c-.295%200-.53-.09-.71-.27C.09%2034.516%200%2034.3%200%2034.05v-2.33c0-.25.097-.465.288-.645.193-.18.42-.27.687-.27H1.3c1.776%200%203.223-1.37%203.238-3.06v-8.94H.975c-.236%200-.458-.09-.665-.27-.206-.18-.31-.395-.31-.645v-2.33c0-.223.104-.43.31-.625.207-.194.43-.292.665-.292h7.019c.266%200%20.494.09.687.27.192.182.29.396.29.646V27.77c0%20.032-.008.058-.01.09-.08%203.937-3.477%207.098-7.65%207.104zM.318%200C-.25%2011.117%208.62%2012.702%208.62%2012.702%208.17.522.318%200%20.318%200z%22%2F%3E%3C%2Fsvg%3E%0A&quot;);"></jdiv><jdiv class="logoIconCloud__O6DHQ icons__MA9W_" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width%3D%2230%22%20height%3D%2231%22%20viewBox%3D%220%200%2030%2031%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M2.967%2022.226l-.025.008s7.698%2013.9%2026.975%205.546c0%200-1.495-1.752-4.384-3.52a14.067%2014.067%200%200%200%202.588-14.047c-2.655-7.297-10.7-11.07-17.964-8.425C2.89%204.433-.847%2012.492%201.81%2019.79c.313.863.703%201.677%201.157%202.436z%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv></jdiv><jdiv class="menuWrap__OC_0_ __hover__ATu56"></jdiv></jdiv><jdiv id="jcont" translate="no" class="notranslate" style="animation-duration: 300ms; animation-timing-function: cubic-bezier(0.39, 0.24, 0.21, 0.99); animation-delay: 0s; animation-iteration-count: 1; animation-direction: normal; animation-fill-mode: both; animation-play-state: running; animation-name: WidgetContainer_CLOSE_WIDGET__QqfP2; --jright: 30px; --jheight: 496px; display: block; position: fixed;"><jdiv dir="ltr" id="jivo_action" class="wrap__kR9lT"><jdiv id="jivo_close_button" class="closeButton__Ej_rN"><jdiv class="closeIcon__taf1A" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(2%202)%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%20fill%3D%22%23FFF%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212.75%22%20stroke%3D%22%23222D38%22%20stroke-width%3D%221.5%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23222D38%22%20opacity%3D%221%22%20transform%3D%22translate(6%206)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22rotate(45%206.24%206.01)%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22scale(-1%201)%20rotate(45%200%20-9.058)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv></jdiv></jdiv><jdiv class="jv-pseudo-height"></jdiv><jdiv class="jv-mouse-track"></jdiv></jdiv></jdiv>
+</body>

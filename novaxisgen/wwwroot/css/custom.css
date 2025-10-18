@@ -1,0 +1,32 @@
+.logo-header-desktop {
+	width: 70px;
+    vertical-align: middle;
+}
+
+.logo-header-desktop-minimize {
+	width: 60px;
+    vertical-align: middle;
+}
+
+.logo-sm {
+	width: 56px;
+    vertical-align: middle;
+}
+
+.logo-login {
+	width: 160px;
+    vertical-align: middle;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+[data-bs-theme=light] body:not(.app-blank),
+[data-bs-theme=dark] body:not(.app-blank) {
+    background-image: none !important;
+}

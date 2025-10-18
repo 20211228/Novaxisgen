@@ -1,0 +1,621 @@
+﻿
+@{
+}
+
+@{
+}
+<body>
+    <div class="d-flex flex-column flex-root">
+        <div class="bgi-attachment-fixed d-flex flex-column-fluid flex-row page">
+            <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+                <div id="kt_header" class="header align-items-stretch mb-5 mb-lg-10" data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="{default: '200px', lg: '300px'}">
+                    <div class="container-xxl d-flex align-items-center justify-content-center gap-3">
+                        <div class="d-flex topbar align-items-center d-lg-none ms-n2 me-3" title="Show aside menu">
+                            <div class="btn btn-icon btn-active-light-primary btn-custom w-30px h-30px w-md-40px h-md-40px" id="kt_header_menu_mobile_toggle">
+                                <i class="ki-duotone ki-burger-menu-5 fs-1">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="header-logo me-10 me-md-18 flex-shrink-0">
+                            <a href="https://genesis-tech.net">
+                                <img alt="Logo" src="/assets/media/logos/demo2.png" class="logo-default h-25px">
+                                <img alt="Logo" src="/assets/media/logos/demo2.png" class="logo-sticky h-25px">
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mx-auto gap-4">
+                            <div class="d-flex align-items-stretch" id="kt_header_nav">
+                                <div class="header-menu align-items-stretch drawer drawer-start" data-kt-drawer="true" data-kt-drawer-name="header-menu" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_header_menu_mobile_toggle" data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_body', lg: '#kt_header_nav'}" style="width: 250px !important;">
+                                    <div class="menu menu-rounded menu-column menu-lg-row menu-active-bg menu-title-gray-700 menu-state-primary menu-arrow-gray-500 fw-semibold my-5 my-lg-0 align-items-stretch px-2 px-lg-0" id="#kt_header_menu" data-kt-menu="true">
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <div class="menu-item">
+                                                <a class="menu-link py-3" href="@Url.Action("Index","Home")">
+                                                    <i class="fa fa-home fs-4 me-2"></i>
+                                                    <span class="menu-title">Trang chủ</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        @* <div class="mb-4"></div>
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+
+                                        <span class="menu-link py-3">
+                                        <i class="ki-outline ki-joystick fs-4 me-2"></i>
+                                        <span class="menu-title">Trò chơi</span>
+                                        <span class="menu-arrow"></span>
+                                        </span>
+
+                                        <!-- Submenu -->
+                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown py-4 px-2 w-200px">
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/tickets">
+                                        <i class="fas fa-ticket-alt fs-2"></i>
+                                        <span class="menu-title">Vé Trò Chơi</span>
+                                        </a>
+                                        </div>
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/scratch-game">
+                                        <i class="fas fa-coins fs-2"></i>
+                                        <span class="menu-title">Trò chơi cào</span>
+                                        </a>
+                                        </div>
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/domino">
+                                        <i class="fas fa-dice fs-2"></i>
+                                        <span class="menu-title">Trò chơi domino</span>
+                                        </a>
+                                        </div>
+                                        </div>
+                                        </div>	 *@
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <span class="menu-link py-3">
+                                                <i class="ki-outline ki-book-square fs-4 me-2"></i>
+                                                <span class="menu-title">Tài liệu</span>
+                                                <span class="menu-arrow d-lg-none"></span>
+                                            </span>
+
+                                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-250px">
+
+                                                <!-- Seção: Apresentações -->
+                                                <div class="menu-item px-2">
+                                                    <span class="menu-section text-gray-500 fw-bold fs-7 text-uppercase">Bài thuyết trình</span>
+                                                </div>
+                                                <div class="menu-item d-flex flex-wrap gap-2 px-3 py-2">
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf1.pdf" target="_blank" title="Chinese">
+                                                        <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf1.pdf" target="_blank" title="Japanese">
+                                                        <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf1.pdf" target="_blank" title="Korean">
+                                                        <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                </div>
+
+                                                <!-- Seção: GENCOIN -->
+                                                @* <div class="menu-item px-2 mt-4">
+                                                <span class="menu-section text-gray-500 fw-bold fs-7 text-uppercase">GENCOIN</span>
+                                                </div>
+                                                <div class="menu-item d-flex flex-wrap gap-2 px-3 py-2">
+                                                <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf5.pdf" target="_blank" title="Chinese">
+                                                <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                </a>
+                                                <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf5.pdf" target="_blank" title="Japanese">
+                                                <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                </a>
+                                                <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf5.pdf" target="_blank" title="Korean">
+                                                <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                </a>
+                                                </div> *@
+
+                                                <!-- Seção: Magazine -->
+                                                <div class="menu-item px-2 mt-4">
+                                                    <span class="menu-section text-gray-500 fw-bold fs-7 text-uppercase">Tạp chí</span>
+                                                </div>
+                                                <div class="menu-item d-flex flex-wrap gap-2 px-3 py-2">
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf3.pdf" target="_blank" title="Chinese">
+                                                        <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf3.pdf" target="_blank" title="Japanese">
+                                                        <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf3.pdf" target="_blank" title="Korean">
+                                                        <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                </div>
+
+                                                <!-- Seção: Whitepapers -->
+                                                <div class="menu-item px-2 mt-4">
+                                                    <span class="menu-section text-gray-500 fw-bold fs-7 text-uppercase">WHITEPAPER</span>
+                                                </div>
+                                                <div class="menu-item d-flex flex-wrap gap-2 px-3 py-2">
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf2.pdf" target="_blank" title="Chinese Whitepaper">
+                                                        <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf4.pdf" target="_blank" title="Chinese Whitepaper">
+                                                        <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf2.pdf" target="_blank" title="Japanese Whitepaper">
+                                                        <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf4.pdf" target="_blank" title="Japanese Whitepaper">
+                                                        <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf2.pdf" target="_blank" title="Korean Whitepaper">
+                                                        <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf4.pdf" target="_blank" title="Korean Whitepaper">
+                                                        <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                </div>
+                                                <div class="mb-4"></div>
+                                                <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+
+                                                    <span class="menu-link py-3">
+                                                        <i class="fa fa-play-circle fs-4 me-2"></i>
+                                                        <span class="menu-title">Video</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+
+                                                    <!-- Submenu -->
+                                                    <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown py-4 px-2 w-200px">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link py-2" href="@Url.Action("Institution","Video")">
+                                                                <span class="menu-icon">
+                                                                    <i class="fa fa-play-circle fs-4 me-2 text-info"></i>
+                                                                </span>
+                                                                <span class="menu-title">Thể chế</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link py-2" href="@Url.Action("Tutorial","Video")">
+                                                                <span class="menu-icon">
+                                                                    <i class="ki-outline ki-book-open fs-2 text-success"></i>
+                                                                </span>
+                                                                <span class="menu-title">Hướng dẫn</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <span class="menu-link py-3">
+                                                <i class="ki-outline ki-chart-line-up fs-4 me-2"></i>
+                                                <span class="menu-title">Đầu tư</span>
+                                                <span class="menu-arrow d-lg-none"></span>
+                                            </span>
+                                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("InvestNow","Investments")">
+                                                        <i class="ki-outline ki-purchase fs-4 me-2"></i>
+                                                        <span class="menu-title">Đầu tư ngay!</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("InvestHistory","Investments")">
+                                                        <i class="ki-outline ki-burger-menu-1 fs-4 me-2"></i>
+                                                        <span class="menu-title">Lịch sử đầu tư</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("TopupWallet","Investments")">
+                                                        <i class="ki-outline ki-dollar fs-4 me-2"></i>
+                                                        <span class="menu-title">Nạp tiền</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("WithDraw","Investments")">
+                                                        <i class="ki-outline ki-dollar fs-4 me-2"></i>
+                                                        <span class="menu-title">Rút tiền</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/finance/withdrawal">
+                                                        <i class="ki-outline ki-dollar fs-4 me-2"></i>
+                                                        <span class="menu-title">Chuyển tiền</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <span class="menu-link py-3">
+                                                <i class="ki-outline ki-tech-wifi fs-4 me-2"></i>
+                                                <span class="menu-title">Mạng</span>
+                                                <span class="menu-arrow d-lg-none"></span>
+                                            </span>
+                                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("DirectIndications","Networks")">
+                                                        <i class="ki-outline ki-profile-user fs-4 me-2"></i>
+                                                        <span class="menu-title">Giới thiệu trực tiếp</span>
+                                                    </a>
+                                                </div>
+                                                <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+
+                                                    <span class="menu-link py-3">
+                                                        <i class="fa fa-play-circle fs-4 me-2"></i>
+                                                        <span class="menu-title">Cây nhị phân</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+
+                                                    <!-- Submenu -->
+                                                    <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown py-4 px-2 w-200px" style="">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link py-2" href="https://genesis-tech.net/videos">
+                                                                <span class="menu-icon">
+                                                                    <i class="fa fa-play-circle fs-4 me-2 text-info"></i>
+                                                                </span>
+                                                                <span class="menu-title">Thông tin cấp bậc</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link py-2" href="@Url.Action("BinaryTree","Networks")">
+                                                                <span class="menu-icon">
+                                                                    <i class="ki-outline ki-book-open fs-2 text-success"></i>
+                                                                </span>
+                                                                <span class="menu-title">Tuyến dưới</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                @* <div class="menu-item">
+                                                <a class="menu-link py-3" href="https://genesis-tech.net/network/binary">
+                                                <i class="ki-outline ki-people fs-4 me-2"></i>
+                                                <span class="menu-title">Cây nhị phân</span>
+                                                </a>
+                                                </div> *@
+                                            </div>
+
+                                        </div>
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <span class="menu-link py-3">
+                                                <i class="ki-outline ki-abstract-26 fs-4 me-2"></i>
+                                                <span class="menu-title">Báo cáo</span>
+                                                <span class="menu-arrow d-lg-none"></span>
+                                            </span>
+                                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("DailyEarning","Reports")">
+                                                        <i class="ki-outline ki-burger-menu-1 fs-4 me-2"></i>
+                                                        <span class="menu-title">Lãi hàng ngày</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("YourBonus","Reports")">
+                                                        <i class="ki-outline ki-burger-menu-1 fs-4 me-2"></i>
+                                                        <span class="menu-title">Hoa hồng trực tiếp</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("BinaryReport","Reports")">
+                                                        <i class="ki-outline ki-people fs-4 me-2"></i>
+                                                        <span class="menu-title">Hoa hồng nhị phân</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("BelowBonus","Reports")">
+                                                        <i class="ki-outline ki-chart fs-4 me-2"></i>
+                                                        <span class="menu-title">Hoa hồng lãi/lãi</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("LeaderBonus","Reports")">
+                                                        <i class="ki-outline ki-joystick fs-4 me-2"></i>
+                                                        <span class="menu-title">Hoa hồng lãnh đạo</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        @* <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/products">
+                                        <i class="ki-outline ki-wallet fs-4 me-2"></i>
+                                        <span class="menu-title">Sản phẩm số</span>
+                                        </a>
+                                        </div>		 *@
+                                        @* <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/paymentprofile">
+                                        <i class="ki-outline ki-wallet fs-4 me-2"></i>
+                                        <span class="menu-title">Ví</span>
+                                        </a>
+                                        </div> *@
+                                        @* <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                        <span class="menu-link py-3">
+                                        <i class="ki-outline ki-rocket fs-4 me-2" style="color: #00ffff;"></i>
+                                        <span class="menu-title">Tăng tốc</span>
+                                        <span class="menu-arrow d-lg-none"></span>
+                                        </span>
+                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/booster">
+                                        <i class="ki-outline ki-rocket fs-4 me-2" style="color: #00ffff;"></i>
+                                        <span class="menu-title">Bộ tăng cường của bạn</span>
+                                        </a>
+                                        </div>
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/quantummining">
+                                        <i class="ki-outline ki-barcode fs-4 me-2"></i>
+                                        <span class="menu-title">Xem khai thác</span>
+                                        </a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        *@
+                                        @* <a href="https://watchboosters.genesis-tech.net/" class="btn-boost-modern" target="_blank">
+                                        <i class="ki-outline ki-satellite fs-4 me-2"></i>Xem Boosters	 *@								</a><div class="menu-item d-lg-none mt-3">
+                                            <a id="themeToggleMobile" href="#" class="menu-link py-3" role="switch" aria-checked="true" data-kt-menu-dismiss="false">
+                                                <span class="theme-icon me-2">🌙</span>
+                                                <span class="menu-title"><strong id="themeLabelMobile">Dark</strong></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="topbar d-flex align-items-stretch flex-shrink-0">
+
+                                <!-- Toggle Dark/Light -->
+                                <div class="d-flex align-items-center me-2"></div>
+
+
+                                <div class="d-flex align-items-center me-lg-n2 ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
+                                    <div class="btn btn-icon btn-active-light-primary btn-custom h-30px h-md-40px w-auto" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+                                        <div class="symbol symbol-40px">
+                                            <div class="symbol-label fw-semibold w-auto px-2">Chào mừng, trimy168</div>
+                                        </div>
+                                    </div>
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px" data-kt-menu="true">
+                                        <div class="d-flex align-items-center ms-1 ms-lg-3" style="align-self: center;">
+                                            <div class="btn btn-icon btn-icon-mobile w-auto btn-clean d-flex align-items-center btn-lg px-2">
+                                                <span class="d-flex text-white fw-bold font-weight-bolder font-size-base" id="time"></span>
+                                            </div>
+                                        </div>
+                                        <div class="separator my-2"></div>
+                                        <div class="menu-item px-5">
+                                            <a href="https://genesis-tech.net/profile" class="menu-link px-5">Hồ sơ của tôi</a>
+                                        </div>
+                                        <div class="separator my-2"></div>
+                                        <div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="left-start" data-kt-menu-offset="-15px, 0">
+                                            <a href="#" class="menu-link px-5">
+                                                <span class="menu-title position-relative">
+                                                    Ngôn ngữ
+                                                    <span class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">
+                                                        Tiếng Việt
+                                                        <img class="w-15px h-15px rounded-1 ms-2" src="/Image/flags/vn.svg" alt="">
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            <div class="menu-sub menu-sub-dropdown w-175px py-4">
+                                                <div class="menu-item px-3">
+                                                    <a href="https://genesis-tech.net/lang/en" class="menu-link d-flex px-5 ">
+                                                        <span class="symbol symbol-20px me-4">
+                                                            <img class="rounded-1" src="/Image/flags/en.svg" alt="">
+                                                        </span>English
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="https://genesis-tech.net/lang/es" class="menu-link d-flex px-5 ">
+                                                        <span class="symbol symbol-20px me-4">
+                                                            <img class="rounded-1" src="/Image/flags/es.svg" alt="">
+                                                        </span>Español
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="https://genesis-tech.net/lang/cn" class="menu-link d-flex px-5 ">
+                                                        <span class="symbol symbol-20px me-4">
+                                                            <img class="rounded-1" src="/Image/flags/cn.svg" alt="">
+                                                        </span>中文
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="https://genesis-tech.net/lang/vn" class="menu-link d-flex px-5 active">
+                                                        <span class="symbol symbol-20px me-4">
+                                                            <img class="rounded-1" src="/Image/flags/vn.svg" alt="">
+                                                        </span>Tiếng Việt
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="https://genesis-tech.net/lang/jp" class="menu-link d-flex px-5 ">
+                                                        <span class="symbol symbol-20px me-4">
+                                                            <img class="rounded-1" src="/Image/flags/jp.svg" alt="">
+                                                        </span>日本語
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="https://genesis-tech.net/lang/kr" class="menu-link d-flex px-5 ">
+                                                        <span class="symbol symbol-20px me-4">
+                                                            <img class="rounded-1" src="/Image/flags/kr.svg" alt="">
+                                                        </span>한국어
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="https://genesis-tech.net/lang/ru" class="menu-link d-flex px-5 ">
+                                                        <span class="symbol symbol-20px me-4">
+                                                            <img class="rounded-1" src="/Image/flags/ru.svg" alt="">
+                                                        </span>русский
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="https://genesis-tech.net/lang/fr" class="menu-link d-flex px-5 ">
+                                                        <span class="symbol symbol-20px me-4">
+                                                            <img class="rounded-1" src="/Image/flags/fr.svg" alt="">
+                                                        </span>Français
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="https://genesis-tech.net/lang/de" class="menu-link d-flex px-5 ">
+                                                        <span class="symbol symbol-20px me-4">
+                                                            <img class="rounded-1" src="/Image/flags/de.svg" alt="">
+                                                        </span>Deutsch
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item px-5">
+                                            <a href="https://genesis-tech.net/logout" class="menu-link px-5">Đăng xuất</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toolbar py-5 pb-lg-15" id="kt_toolbar">
+                    <div id="kt_toolbar_container" class="container-xxl d-flex flex-stack flex-wrap">
+                        <div class="page-title d-flex flex-column me-3">
+                            <h1 class="d-flex text-white fw-bold my-1 fs-3"></h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
+                    <div class="content flex-row-fluid" id="kt_content">
+                        <div class="row gy-5 g-xl-8">
+
+
+                            <style>
+                                /* Header translúcido */
+                                .token-report .table thead {
+                                    background: rgba(255,255,255,.65) !important;
+                                }
+
+                                [data-bs-theme="dark"] .token-report .table thead {
+                                    background: rgba(2,6,23,.55) !important;
+                                }
+
+                                /* Linhas em hover */
+                                .token-report .table tbody tr:hover {
+                                    background: rgba(0,0,0,.04) !important;
+                                }
+
+                                [data-bs-theme="dark"] .token-report .table tbody tr:hover {
+                                    background: rgba(255,255,255,.04) !important;
+                                }
+
+                                /* Card */
+                                [data-bs-theme="light"] .token-card {
+                                    background: #ffffff !important;
+                                    color: #000 !important;
+                                    border: 1px solid #e5e7eb !important;
+                                    box-shadow: 0 8px 24px rgba(0,0,0,.08) !important;
+                                }
+
+                                .token-card {
+                                    background: linear-gradient(135deg, #1e293b, #111827);
+                                    color: #e5e7eb;
+                                    padding: 2rem;
+                                    border-radius: 1rem;
+                                    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+                                    margin-bottom: 2rem;
+                                }
+
+                                    .token-card h3 {
+                                        font-weight: 700;
+                                        color: #60a5fa;
+                                    }
+
+                                    /* Valor total à direita do card */
+                                    .token-card .amount {
+                                        font-size: 2rem;
+                                        font-weight: 800;
+                                        color: #10b981; /* verde */
+                                        white-space: nowrap;
+                                    }
+
+                                [data-bs-theme="light"] .token-card .amount {
+                                    color: #059669;
+                                }
+
+                                .token-report .table {
+                                    background-color: transparent;
+                                    color: #e5e7eb;
+                                }
+
+                                    .token-report .table thead {
+                                        background-color: #1f2937;
+                                        color: #9ca3af;
+                                        text-transform: uppercase;
+                                    }
+
+                                    .token-report .table tbody tr:hover {
+                                        background-color: #1e293b;
+                                    }
+
+                                .token-report .badge {
+                                    font-size: 0.85rem;
+                                    padding: 0.35rem 0.75rem;
+                                    border-radius: 0.5rem;
+                                }
+
+                                .token-report .external-link {
+                                    color: #60a5fa;
+                                    margin-left: 0.5rem;
+                                    text-decoration: none;
+                                }
+                            </style>
+
+                            <div class="col-xl-12">
+                                <!-- Cabeçalho -->
+                                <div class="token-card d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">
+                                        <i class="fas fa-coins me-2"></i> Hoa hồng lãnh đạo
+                                    </h3>
+
+                                    <div class="amount">
+                                        0.00000
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 token-report">
+                                <div class="card card-custom">
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Ngày</th>
+                                                        <th>Thành viên</th>
+                                                        <th>Cấp VIP</th>
+                                                        <th>Nhánh yếu</th>
+                                                        <th>Hoa hồng(%)</th>
+                                                        <th>Tiền hoa hồng</th>
+                                                        <th>Điều kiện đã đạt</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                        <!-- Paginação -->
+                                        <div class="mt-4 d-flex justify-content-center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+                    <div class="container-xxl d-flex flex-column flex-md-row align-items-center justify-content-between">
+                        <div class="text-gray-900 order-2 order-md-1">
+                            <span class="text-muted fw-semibold me-1">2025©</span>
+                            <a href="https://genesis-tech.net" target="_blank" class="text-gray-800 text-hover-primary">Genesis</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+        <i class="ki-duotone ki-arrow-up">
+            ⬆️
+        </i>
+    </div>
+
+
+
+    <svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg>
+</body>

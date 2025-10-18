@@ -1,0 +1,653 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Novaxisgen.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Novaxisgen.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-001.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-001.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-002.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-002.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-003.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-003.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-004.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-004.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-005.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-005.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-006.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-006.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-007.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-007.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-008.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-008.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-009.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-009.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-010.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-010.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-011.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-011.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-012.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-012.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-013.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-013.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\IndexImage\\news-014.png",
+      "PackagePath": "staticwebassets\\Image\\IndexImage\\news-014.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\demo2.png",
+      "PackagePath": "staticwebassets\\Image\\demo2.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\flags\\cn.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\cn.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\flags\\de.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\de.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\flags\\en.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\en.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\flags\\es.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\es.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\flags\\fr.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\fr.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\flags\\jp.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\jp.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\flags\\kr.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\kr.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\flags\\ru.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\ru.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\flags\\vn.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\vn.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\pacotes\\empty.png",
+      "PackagePath": "staticwebassets\\Image\\pacotes\\empty.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\binary.css",
+      "PackagePath": "staticwebassets\\css\\binary.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\css",
+      "PackagePath": "staticwebassets\\css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\css2",
+      "PackagePath": "staticwebassets\\css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\datatables.bundle.css",
+      "PackagePath": "staticwebassets\\css\\datatables.bundle.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\duotone\\Read Me.txt",
+      "PackagePath": "staticwebassets\\css\\duotone\\Read Me.txt"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\duotone\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\css\\duotone\\demo-files\\demo.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\duotone\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\css\\duotone\\demo-files\\demo.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\duotone\\demo.html",
+      "PackagePath": "staticwebassets\\css\\duotone\\demo.html"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\duotone\\keenicons-duotone.eot",
+      "PackagePath": "staticwebassets\\css\\duotone\\keenicons-duotone.eot"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\duotone\\keenicons-duotone.svg",
+      "PackagePath": "staticwebassets\\css\\duotone\\keenicons-duotone.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\duotone\\selection.json",
+      "PackagePath": "staticwebassets\\css\\duotone\\selection.json"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\duotone\\style.css",
+      "PackagePath": "staticwebassets\\css\\duotone\\style.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\fonts\\keenicons\\keenicons-duotone.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\keenicons\\keenicons-duotone.ttf"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\fonts\\keenicons\\keenicons-duotone.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\keenicons\\keenicons-duotone.woff"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\fonts\\keenicons\\keenicons-outline.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\keenicons\\keenicons-outline.ttf"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\fonts\\keenicons\\keenicons-outline.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\keenicons\\keenicons-outline.woff"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\fullcalendar.bundle.css",
+      "PackagePath": "staticwebassets\\css\\fullcalendar.bundle.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\matrix.css",
+      "PackagePath": "staticwebassets\\css\\matrix.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\outline\\Read Me.txt",
+      "PackagePath": "staticwebassets\\css\\outline\\Read Me.txt"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\outline\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\css\\outline\\demo-files\\demo.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\outline\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\css\\outline\\demo-files\\demo.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\outline\\demo.html",
+      "PackagePath": "staticwebassets\\css\\outline\\demo.html"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\outline\\fonts\\keenicons-outline.eot",
+      "PackagePath": "staticwebassets\\css\\outline\\fonts\\keenicons-outline.eot"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\outline\\fonts\\keenicons-outline.svg",
+      "PackagePath": "staticwebassets\\css\\outline\\fonts\\keenicons-outline.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\outline\\selection.json",
+      "PackagePath": "staticwebassets\\css\\outline\\selection.json"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\outline\\style.css",
+      "PackagePath": "staticwebassets\\css\\outline\\style.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\plugins.bundle.css",
+      "PackagePath": "staticwebassets\\css\\plugins.bundle.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\Read Me.txt",
+      "PackagePath": "staticwebassets\\css\\solid\\Read Me.txt"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\css\\solid\\demo-files\\demo.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\css\\solid\\demo-files\\demo.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\demo.html",
+      "PackagePath": "staticwebassets\\css\\solid\\demo.html"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\fonts\\keenicons-solid.eot",
+      "PackagePath": "staticwebassets\\css\\solid\\fonts\\keenicons-solid.eot"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\fonts\\keenicons-solid.svg",
+      "PackagePath": "staticwebassets\\css\\solid\\fonts\\keenicons-solid.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\fonts\\keenicons-solid.ttf",
+      "PackagePath": "staticwebassets\\css\\solid\\fonts\\keenicons-solid.ttf"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\fonts\\keenicons-solid.woff",
+      "PackagePath": "staticwebassets\\css\\solid\\fonts\\keenicons-solid.woff"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\selection.json",
+      "PackagePath": "staticwebassets\\css\\solid\\selection.json"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\solid\\style.css",
+      "PackagePath": "staticwebassets\\css\\solid\\style.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\style.bundle.css",
+      "PackagePath": "staticwebassets\\css\\style.bundle.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\styleTheme5.css",
+      "PackagePath": "staticwebassets\\css\\styleTheme5.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\widget.css",
+      "PackagePath": "staticwebassets\\css\\widget.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Animated.js",
+      "PackagePath": "staticwebassets\\js\\Animated.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\basic.js",
+      "PackagePath": "staticwebassets\\js\\basic.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\chartjs-adapter-date-fns.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\chartjs-adapter-date-fns.bundle.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\continentsLow.js",
+      "PackagePath": "staticwebassets\\js\\continentsLow.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\create-app.js",
+      "PackagePath": "staticwebassets\\js\\create-app.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\create-campaign.js",
+      "PackagePath": "staticwebassets\\js\\create-campaign.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\datatables.bundle.js",
+      "PackagePath": "staticwebassets\\js\\datatables.bundle.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\fullcalendar.bundle.js",
+      "PackagePath": "staticwebassets\\js\\fullcalendar.bundle.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\general.js",
+      "PackagePath": "staticwebassets\\js\\general.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\loader.js",
+      "PackagePath": "staticwebassets\\js\\loader.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\map.js",
+      "PackagePath": "staticwebassets\\js\\map.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\morris.min.js",
+      "PackagePath": "staticwebassets\\js\\morris.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\percent.js",
+      "PackagePath": "staticwebassets\\js\\percent.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\plugins.bundle.js",
+      "PackagePath": "staticwebassets\\js\\plugins.bundle.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\radar.js",
+      "PackagePath": "staticwebassets\\js\\radar.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\raphael-min.js",
+      "PackagePath": "staticwebassets\\js\\raphael-min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\scripts.bundle.js",
+      "PackagePath": "staticwebassets\\js\\scripts.bundle.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\sns-websdk-builder.js",
+      "PackagePath": "staticwebassets\\js\\sns-websdk-builder.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\upgrade-plan.js",
+      "PackagePath": "staticwebassets\\js\\upgrade-plan.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\usaLow.js",
+      "PackagePath": "staticwebassets\\js\\usaLow.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\users-search.js",
+      "PackagePath": "staticwebassets\\js\\users-search.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\widgets.bundle.js",
+      "PackagePath": "staticwebassets\\js\\widgets.bundle.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\js\\widgets.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\worldLow.js",
+      "PackagePath": "staticwebassets\\js\\worldLow.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\worldTimeZoneAreasLow.js",
+      "PackagePath": "staticwebassets\\js\\worldTimeZoneAreasLow.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\xy.js",
+      "PackagePath": "staticwebassets\\js\\xy.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Novaxisgen.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Novaxisgen.props",
+      "PackagePath": "build\\Novaxisgen.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Novaxisgen.props",
+      "PackagePath": "buildMultiTargeting\\Novaxisgen.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Novaxisgen.props",
+      "PackagePath": "buildTransitive\\Novaxisgen.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

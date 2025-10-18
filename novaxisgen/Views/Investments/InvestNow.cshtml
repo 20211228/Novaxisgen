@@ -1,0 +1,1653 @@
+﻿
+@{
+}
+<body><div class="d-flex flex-column flex-root">
+	<div class="bgi-attachment-fixed d-flex flex-column-fluid flex-row page">
+		<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+			<div id="kt_header" class="header align-items-stretch mb-5 mb-lg-10" data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="{default: '200px', lg: '300px'}">
+				<div class="container-xxl d-flex align-items-center justify-content-center gap-3">
+					<div class="d-flex topbar align-items-center d-lg-none ms-n2 me-3" title="Show aside menu">
+						<div class="btn btn-icon btn-active-light-primary btn-custom w-30px h-30px w-md-40px h-md-40px" id="kt_header_menu_mobile_toggle">
+							<i class="ki-duotone ki-burger-menu-5 fs-1">
+								<span class="path1"></span>
+								<span class="path2"></span>
+							</i>
+						</div>
+					</div>
+					<div class="header-logo me-10 me-md-18 flex-shrink-0">
+						<a href="https://genesis-tech.net">
+							<img alt="Logo" src="/assets/media/logos/demo2.png" class="logo-default h-25px">
+							<img alt="Logo" src="/assets/media/logos/demo2.png" class="logo-sticky h-25px">
+						</a>
+					</div>
+					<div class="d-flex align-items-center justify-content-center mx-auto gap-4">
+                            <div class="d-flex align-items-stretch" id="kt_header_nav">
+                                <div class="header-menu align-items-stretch drawer drawer-start" data-kt-drawer="true" data-kt-drawer-name="header-menu" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_header_menu_mobile_toggle" data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_body', lg: '#kt_header_nav'}" style="width: 250px !important;">
+                                    <div class="menu menu-rounded menu-column menu-lg-row menu-active-bg menu-title-gray-700 menu-state-primary menu-arrow-gray-500 fw-semibold my-5 my-lg-0 align-items-stretch px-2 px-lg-0" id="#kt_header_menu" data-kt-menu="true">
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <div class="menu-item">
+                                                <a class="menu-link py-3" href="@Url.Action("Index","Home")">
+                                                    <i class="fa fa-home fs-4 me-2"></i>
+                                                    <span class="menu-title">Trang chủ</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        @* <div class="mb-4"></div>
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+
+                                        <span class="menu-link py-3">
+                                        <i class="ki-outline ki-joystick fs-4 me-2"></i>
+                                        <span class="menu-title">Trò chơi</span>
+                                        <span class="menu-arrow"></span>
+                                        </span>
+
+                                        <!-- Submenu -->
+                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown py-4 px-2 w-200px">
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/tickets">
+                                        <i class="fas fa-ticket-alt fs-2"></i>
+                                        <span class="menu-title">Vé Trò Chơi</span>
+                                        </a>
+                                        </div>
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/scratch-game">
+                                        <i class="fas fa-coins fs-2"></i>
+                                        <span class="menu-title">Trò chơi cào</span>
+                                        </a>
+                                        </div>
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/domino">
+                                        <i class="fas fa-dice fs-2"></i>
+                                        <span class="menu-title">Trò chơi domino</span>
+                                        </a>
+                                        </div>
+                                        </div>
+                                        </div>	 *@
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <span class="menu-link py-3">
+                                                <i class="ki-outline ki-book-square fs-4 me-2"></i>
+                                                <span class="menu-title">Tài liệu</span>
+                                                <span class="menu-arrow d-lg-none"></span>
+                                            </span>
+
+                                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-250px">
+
+                                                <!-- Seção: Apresentações -->
+                                                <div class="menu-item px-2">
+                                                    <span class="menu-section text-gray-500 fw-bold fs-7 text-uppercase">Bài thuyết trình</span>
+                                                </div>
+                                                <div class="menu-item d-flex flex-wrap gap-2 px-3 py-2">
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf1.pdf" target="_blank" title="Chinese">
+                                                        <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf1.pdf" target="_blank" title="Japanese">
+                                                        <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf1.pdf" target="_blank" title="Korean">
+                                                        <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                </div>
+
+                                                <!-- Seção: GENCOIN -->
+                                                @* <div class="menu-item px-2 mt-4">
+                                                <span class="menu-section text-gray-500 fw-bold fs-7 text-uppercase">GENCOIN</span>
+                                                </div>
+                                                <div class="menu-item d-flex flex-wrap gap-2 px-3 py-2">
+                                                <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf5.pdf" target="_blank" title="Chinese">
+                                                <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                </a>
+                                                <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf5.pdf" target="_blank" title="Japanese">
+                                                <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                </a>
+                                                <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf5.pdf" target="_blank" title="Korean">
+                                                <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                </a>
+                                                </div> *@
+
+                                                <!-- Seção: Magazine -->
+                                                <div class="menu-item px-2 mt-4">
+                                                    <span class="menu-section text-gray-500 fw-bold fs-7 text-uppercase">Tạp chí</span>
+                                                </div>
+                                                <div class="menu-item d-flex flex-wrap gap-2 px-3 py-2">
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf3.pdf" target="_blank" title="Chinese">
+                                                        <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf3.pdf" target="_blank" title="Japanese">
+                                                        <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf3.pdf" target="_blank" title="Korean">
+                                                        <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                </div>
+
+                                                <!-- Seção: Whitepapers -->
+                                                <div class="menu-item px-2 mt-4">
+                                                    <span class="menu-section text-gray-500 fw-bold fs-7 text-uppercase">WHITEPAPER</span>
+                                                </div>
+                                                <div class="menu-item d-flex flex-wrap gap-2 px-3 py-2">
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf2.pdf" target="_blank" title="Chinese Whitepaper">
+                                                        <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/ch-pdf4.pdf" target="_blank" title="Chinese Whitepaper">
+                                                        <img src="/Image/flags/cn.svg" alt="CN" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf2.pdf" target="_blank" title="Japanese Whitepaper">
+                                                        <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/jp-pdf4.pdf" target="_blank" title="Japanese Whitepaper">
+                                                        <img src="/Image/flags/jp.svg" alt="JP" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf2.pdf" target="_blank" title="Korean Whitepaper">
+                                                        <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                    <a href="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/kr-pdf4.pdf" target="_blank" title="Korean Whitepaper">
+                                                        <img src="/Image/flags/kr.svg" alt="KR" class="rounded-1" style="width: 30px; height: 20px;">
+                                                    </a>
+                                                </div>
+                                                <div class="mb-4"></div>
+                                                <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+
+                                                    <span class="menu-link py-3">
+                                                        <i class="fa fa-play-circle fs-4 me-2"></i>
+                                                        <span class="menu-title">Video</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+
+                                                    <!-- Submenu -->
+                                                    <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown py-4 px-2 w-200px">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link py-2" href="@Url.Action("Institution","Video")">
+                                                                <span class="menu-icon">
+                                                                    <i class="fa fa-play-circle fs-4 me-2 text-info"></i>
+                                                                </span>
+                                                                <span class="menu-title">Thể chế</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link py-2" href="@Url.Action("Tutorial","Video")">
+                                                                <span class="menu-icon">
+                                                                    <i class="ki-outline ki-book-open fs-2 text-success"></i>
+                                                                </span>
+                                                                <span class="menu-title">Hướng dẫn</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <span class="menu-link py-3">
+                                                <i class="ki-outline ki-chart-line-up fs-4 me-2"></i>
+                                                <span class="menu-title">Đầu tư</span>
+                                                <span class="menu-arrow d-lg-none"></span>
+                                            </span>
+                                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="@Url.Action("InvestNow","Investments")">
+                                                        <i class="ki-outline ki-purchase fs-4 me-2"></i>
+                                                        <span class="menu-title">Đầu tư ngay!</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/orders">
+                                                        <i class="ki-outline ki-burger-menu-1 fs-4 me-2"></i>
+                                                        <span class="menu-title">Lịch sử đầu tư</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/finance/withdrawal">
+                                                        <i class="ki-outline ki-dollar fs-4 me-2"></i>
+                                                        <span class="menu-title">Nạp tiền</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/finance/withdrawal">
+                                                        <i class="ki-outline ki-dollar fs-4 me-2"></i>
+                                                        <span class="menu-title">Rút tiền</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/finance/withdrawal">
+                                                        <i class="ki-outline ki-dollar fs-4 me-2"></i>
+                                                        <span class="menu-title">Chuyển tiền</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <span class="menu-link py-3">
+                                                <i class="ki-outline ki-tech-wifi fs-4 me-2"></i>
+                                                <span class="menu-title">Mạng</span>
+                                                <span class="menu-arrow d-lg-none"></span>
+                                            </span>
+                                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/binary/direct">
+                                                        <i class="ki-outline ki-profile-user fs-4 me-2"></i>
+                                                        <span class="menu-title">Giới thiệu trực tiếp</span>
+                                                    </a>
+                                                </div>
+                                                <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+
+                                                    <span class="menu-link py-3">
+                                                        <i class="fa fa-play-circle fs-4 me-2"></i>
+                                                        <span class="menu-title">Cây nhị phân</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+
+                                                    <!-- Submenu -->
+                                                    <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown py-4 px-2 w-200px" style="">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link py-2" href="https://genesis-tech.net/videos">
+                                                                <span class="menu-icon">
+                                                                    <i class="fa fa-play-circle fs-4 me-2 text-info"></i>
+                                                                </span>
+                                                                <span class="menu-title">Thông tin cấp bậc</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link py-2" href="https://genesis-tech.net/tutoriais">
+                                                                <span class="menu-icon">
+                                                                    <i class="ki-outline ki-book-open fs-2 text-success"></i>
+                                                                </span>
+                                                                <span class="menu-title">Tuyến dưới</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                @* <div class="menu-item">
+                                                <a class="menu-link py-3" href="https://genesis-tech.net/network/binary">
+                                                <i class="ki-outline ki-people fs-4 me-2"></i>
+                                                <span class="menu-title">Cây nhị phân</span>
+                                                </a>
+                                                </div> *@
+                                            </div>
+
+                                        </div>
+                                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                            <span class="menu-link py-3">
+                                                <i class="ki-outline ki-abstract-26 fs-4 me-2"></i>
+                                                <span class="menu-title">Báo cáo</span>
+                                                <span class="menu-arrow d-lg-none"></span>
+                                            </span>
+                                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/finance/extract/bonus">
+                                                        <i class="ki-outline ki-burger-menu-1 fs-4 me-2"></i>
+                                                        <span class="menu-title">Lãi hàng ngày</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/finance/extract/roi">
+                                                        <i class="ki-outline ki-burger-menu-1 fs-4 me-2"></i>
+                                                        <span class="menu-title">Hoa hồng trực tiếp</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/reports/binarypoints">
+                                                        <i class="ki-outline ki-people fs-4 me-2"></i>
+                                                        <span class="menu-title">Hoa hồng nhị phân</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/finance/extract/gen">
+                                                        <i class="ki-outline ki-chart fs-4 me-2"></i>
+                                                        <span class="menu-title">Hoa hồng lãi/lãi</span>
+                                                    </a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a class="menu-link py-3" href="https://genesis-tech.net/finance/extract/gamesReward">
+                                                        <i class="ki-outline ki-joystick fs-4 me-2"></i>
+                                                        <span class="menu-title">Hoa hồng lãnh đạo</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        @* <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/products">
+                                        <i class="ki-outline ki-wallet fs-4 me-2"></i>
+                                        <span class="menu-title">Sản phẩm số</span>
+                                        </a>
+                                        </div>		 *@
+                                        @* <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/paymentprofile">
+                                        <i class="ki-outline ki-wallet fs-4 me-2"></i>
+                                        <span class="menu-title">Ví</span>
+                                        </a>
+                                        </div> *@
+                                        @* <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+                                        <span class="menu-link py-3">
+                                        <i class="ki-outline ki-rocket fs-4 me-2" style="color: #00ffff;"></i>
+                                        <span class="menu-title">Tăng tốc</span>
+                                        <span class="menu-arrow d-lg-none"></span>
+                                        </span>
+                                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/booster">
+                                        <i class="ki-outline ki-rocket fs-4 me-2" style="color: #00ffff;"></i>
+                                        <span class="menu-title">Bộ tăng cường của bạn</span>
+                                        </a>
+                                        </div>
+                                        <div class="menu-item">
+                                        <a class="menu-link py-3" href="https://genesis-tech.net/quantummining">
+                                        <i class="ki-outline ki-barcode fs-4 me-2"></i>
+                                        <span class="menu-title">Xem khai thác</span>
+                                        </a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        *@
+                                        @* <a href="https://watchboosters.genesis-tech.net/" class="btn-boost-modern" target="_blank">
+                                        <i class="ki-outline ki-satellite fs-4 me-2"></i>Xem Boosters	 *@								</a><div class="menu-item d-lg-none mt-3">
+                                            <a id="themeToggleMobile" href="#" class="menu-link py-3" role="switch" aria-checked="true" data-kt-menu-dismiss="false">
+                                                <span class="theme-icon me-2">🌙</span>
+                                                <span class="menu-title"><strong id="themeLabelMobile">Dark</strong></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="topbar d-flex align-items-stretch flex-shrink-0">
+
+								<!-- Toggle Dark/Light -->
+								<div class="d-flex align-items-center me-2"></div>
+
+
+							<div class="d-flex align-items-center me-lg-n2 ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
+								<div class="btn btn-icon btn-active-light-primary btn-custom h-30px h-md-40px w-auto" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+									<div class="symbol symbol-40px">
+										<div class="symbol-label fw-semibold w-auto px-2">Chào mừng, trimy168</div>
+									</div>
+								</div>
+								<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px" data-kt-menu="true">
+									<div class="d-flex align-items-center ms-1 ms-lg-3" style="align-self: center;">
+										<div class="btn btn-icon btn-icon-mobile w-auto btn-clean d-flex align-items-center btn-lg px-2">
+											<span class="d-flex text-white fw-bold font-weight-bolder font-size-base" id="time"></span>
+										</div>
+									</div>
+									<div class="separator my-2"></div>
+									<div class="menu-item px-5">
+										<a href="https://genesis-tech.net/profile" class="menu-link px-5">Hồ sơ của tôi</a>
+									</div>
+									<div class="separator my-2"></div>
+									<div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="left-start" data-kt-menu-offset="-15px, 0">
+										<a href="#" class="menu-link px-5">
+											<span class="menu-title position-relative">Ngôn ngữ
+												<span class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">
+													Tiếng Việt
+													<img class="w-15px h-15px rounded-1 ms-2" src="/assets/media/flags/vn.svg" alt="">
+												</span>
+											</span>
+										</a>
+										<div class="menu-sub menu-sub-dropdown w-175px py-4">
+											<div class="menu-item px-3">
+												<a href="https://genesis-tech.net/lang/en" class="menu-link d-flex px-5 ">
+												<span class="symbol symbol-20px me-4">
+													<img class="rounded-1" src="/assets/media/flags/en.svg" alt="">
+												</span>English</a>
+											</div>
+											<div class="menu-item px-3">
+												<a href="https://genesis-tech.net/lang/es" class="menu-link d-flex px-5 ">
+												<span class="symbol symbol-20px me-4">
+													<img class="rounded-1" src="/assets/media/flags/es.svg" alt="">
+												</span>Español</a>
+											</div>
+											<div class="menu-item px-3">
+												<a href="https://genesis-tech.net/lang/cn" class="menu-link d-flex px-5 ">
+												<span class="symbol symbol-20px me-4">
+													<img class="rounded-1" src="/assets/media/flags/cn.svg" alt="">
+												</span>中文</a>
+											</div>
+											<div class="menu-item px-3">
+												<a href="https://genesis-tech.net/lang/vn" class="menu-link d-flex px-5 active">
+												<span class="symbol symbol-20px me-4">
+													<img class="rounded-1" src="/assets/media/flags/vn.svg" alt="">
+												</span>Tiếng Việt</a>
+											</div>
+											<div class="menu-item px-3">
+												<a href="https://genesis-tech.net/lang/jp" class="menu-link d-flex px-5 ">
+												<span class="symbol symbol-20px me-4">
+													<img class="rounded-1" src="/assets/media/flags/jp.svg" alt="">
+												</span>日本語</a>
+											</div>
+											<div class="menu-item px-3">
+												<a href="https://genesis-tech.net/lang/kr" class="menu-link d-flex px-5 ">
+												<span class="symbol symbol-20px me-4">
+													<img class="rounded-1" src="/assets/media/flags/kr.svg" alt="">
+												</span>한국어</a>
+											</div>
+											<div class="menu-item px-3">
+												<a href="https://genesis-tech.net/lang/ru" class="menu-link d-flex px-5 ">
+												<span class="symbol symbol-20px me-4">
+													<img class="rounded-1" src="/assets/media/flags/ru.svg" alt="">
+												</span>русский</a>
+											</div>
+											<div class="menu-item px-3">
+												<a href="https://genesis-tech.net/lang/fr" class="menu-link d-flex px-5 ">
+												<span class="symbol symbol-20px me-4">
+													<img class="rounded-1" src="/assets/media/flags/fr.svg" alt="">
+												</span>Français</a>
+											</div>
+											<div class="menu-item px-3">
+												<a href="https://genesis-tech.net/lang/de" class="menu-link d-flex px-5 ">
+												<span class="symbol symbol-20px me-4">
+													<img class="rounded-1" src="/assets/media/flags/de.svg" alt="">
+												</span>Deutsch</a>
+											</div>
+										</div>
+									</div>
+									<div class="menu-item px-5">
+										<a href="https://genesis-tech.net/logout" class="menu-link px-5">Đăng xuất</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="toolbar py-5 pb-lg-15" id="kt_toolbar">
+				<div id="kt_toolbar_container" class="container-xxl d-flex flex-stack flex-wrap">
+					<div class="page-title d-flex flex-column me-3">
+						<h1 class="d-flex text-white fw-bold my-1 fs-3"></h1>
+					</div>
+				</div>
+			</div>
+			<div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
+				<div class="content flex-row-fluid" id="kt_content">
+					<div class="row gy-5 g-xl-8">
+						
+<style>
+    html, body { height: 100%; }
+    /* Empilha header + conteúdo + footer e empurra o footer para baixo */
+.page { 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Wrapper e conteúdo ocupam o espaço disponível */
+#kt_wrapper {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#kt_content {            /* se o layout usar outro id, aplique a regra nele */
+  flex: 1 0 auto;
+}
+
+/* Footer vai para a base da página */
+#kt_footer, .footer {
+  margin-top: auto;
+}
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .radio-pacote-label {
+    font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 0;
+    }
+
+    .form-check-input {
+        accent-color: #00e6e6;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+        flex-shrink: 0;
+    }
+
+    @@media (max-width: 480px) {
+        .pacote-panel .form-check {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+    }
+
+    .radio-pacote-label {
+        font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .investment-card {
+        background: linear-gradient(145deg, #1c1c1c, #292929);
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0, 255, 255, 0.1);
+        color: #e0f7fa;
+        text-align: center;
+        padding: 30px;
+        position: relative;
+    }
+
+    .investment-container {
+        max-width: 650px;
+        margin: auto;
+        padding: 40px;
+        background: linear-gradient(145deg, #1c1c1c, #292929);
+        border-radius: 20px;
+        box-shadow: 0 15px 30px rgba(0, 255, 255, 0.1);
+        color: #e0f7fa;
+        text-align: center;
+        position: relative;
+    }
+
+    .investment-container::before {
+        content: '';
+        position: absolute;
+        top: -10%;
+        left: -10%;
+        width: 120%;
+        height: 120%;
+        background: radial-gradient(circle, rgba(0,255,255,0.05), transparent);
+        z-index: -1;
+        animation: pulse 4s infinite;
+    }
+
+    @@keyframes pulse {
+        0% { transform: scale(1); opacity: 0.7; }
+        50% { transform: scale(1.05); opacity: 1; }
+        100% { transform: scale(1); opacity: 0.7; }
+    }
+
+    .investment-header-img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        box-shadow: 0 5px 15px rgba(0, 255, 255, 0.1);
+    }
+
+    .investment-container h2 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+        color: #00e6e6;
+    }
+
+    #invest-msg {
+        color: #ccc;
+        font-size: 1rem;
+        margin-bottom: 25px;
+        transition: opacity 0.5s ease;
+    }
+
+    .investment-container input {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid #00e6e6;
+        border-radius: 10px;
+        padding: 12px 18px;
+        font-size: 1.2rem;
+        color: #fff;
+        width: 100%;
+        transition: border-color 0.3s ease;
+        animation: inputGlow 3s ease-in-out infinite alternate;
+    }
+
+    @@keyframes inputGlow {
+        from { box-shadow: 0 0 5px #00e6e6; }
+        to   { box-shadow: 0 0 20px #00e6e6; }
+    }
+
+    .form-check.selected {
+        border: 2px solid #00e6e6;
+        border-radius: 10px;
+        padding: 8px;
+        background-color: rgba(0, 255, 255, 0.05);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        overflow: visible; /* <- essencial para não cortar o botão */
+    }
+
+    .form-check-input {
+        flex-shrink: 0; /* não deixa o botão encolher ou sair da tela */
+    }
+
+
+    .investment-container input:focus {
+        border-color: #00ffff;
+        outline: none;
+        background: rgba(0, 255, 255, 0.1);
+    }
+
+    .invest-btn {
+        background: linear-gradient(to right, #00bcd4, #00acc1);
+        color: white;
+        font-size: 1.1rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        padding: 14px;
+        width: 100%;
+        margin-top: 20px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+    }
+
+    .invest-btn:hover {
+        background: linear-gradient(to right, #00e5ff, #00bcd4);
+        box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+        transform: scale(1.03);
+    }
+
+    @@media (max-width: 768px) {
+        .investment-container {
+            padding: 20px;
+        }
+
+        .investment-container h2 {
+            font-size: 1.5rem;
+        }
+
+        .investment-header-img {
+            margin-bottom: 15px;
+        }
+    }
+    body.modal-open {
+        overflow: hidden !important; /* impede que o body role enquanto o modal está aberto */
+    }
+
+    .modal {
+        overflow-y: auto;
+    }
+
+    .modal-open .modal {
+        padding-right: 0 !important; /* remove espaço adicional à direita */
+    }
+
+    .pacote-panel {
+        max-width: 400px;
+        min-width: 320px;
+        padding: 25px;
+        display: flex;
+        margin-left: -150px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: center;
+        text-align: left;
+        background: linear-gradient(145deg, #1c1c1c, #292929);
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0, 255, 255, 0.1);
+        color: #e0f7fa;
+    }
+
+    .pacote-panel .form-check {
+        white-space: nowrap;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-bottom: 1.25rem !important; /* Aumenta para ~20px */
+        text-overflow: ellipsis;
+    }
+
+    .pacote-panel img {
+        width: 40px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .pacote-panel label {
+        flex: 1;
+        margin-top: 0.5rem;
+        font-size: 0.95rem;
+        min-width: 0;
+        white-space: normal; /* permite quebra de linha */
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .form-check.selected {
+        border: 2px solid #00e6e6;
+        border-radius: 10px;
+        background-color: rgba(0, 255, 255, 0.05);
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        box-sizing: border-box; /* ← ESSENCIAL */
+    }
+
+    @@media (max-width: 767.98px) {
+        .pacote-panel {
+            margin-left: 0 !important;
+            max-width: 100%;
+            min-width: unset;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .investment-container {
+            width: 100%;
+            max-width: 100%;
+            padding: 20px;
+        }
+
+        .form-check {
+            flex-direction: row !important;
+            align-items: flex-start;
+        }
+
+        .form-check-input {
+            margin-top: 0.4rem;
+        }
+    }
+
+    html, body {
+    height: auto !important;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+}
+
+/* =========================
+   THEME OVERRIDES (LIGHT)
+   ========================= */
+
+/* Neutraliza utilitário que força branco */
+[data-bs-theme="light"] .text-white { color: #000 !important; }
+
+/* Superfícies claras */
+[data-bs-theme="light"] .investment-container,
+[data-bs-theme="light"] .pacote-panel,
+[data-bs-theme="light"] .investment-card {
+  background: #ffffff !important;
+  color: #000 !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08) !important;
+}
+
+/* Remove/ameniza glow ciano atrás do card no Light */
+[data-bs-theme="light"] .investment-container::before { 
+  background: radial-gradient(circle, rgba(0,0,0,.04), transparent) !important;
+}
+
+/* Títulos e textos do card */
+[data-bs-theme="light"] .investment-container h2 { color: #0b7285 !important; } /* teal escuro */
+[data-bs-theme="light"] .radio-pacote-label,
+[data-bs-theme="light"] .pacote-panel label { color: #000 !important; }
+
+/* Inputs dentro do card */
+[data-bs-theme="light"] .investment-container input {
+  background: #fff !important;
+  color: #000 !important;
+  border: 1px solid #0bbfbe !important;
+  box-shadow: none !important;              /* desliga animação glow no light */
+  animation: none !important;
+}
+[data-bs-theme="light"] .investment-container input:focus {
+  background: #fff !important;
+  border-color: #0ac5d1 !important;
+  outline: none !important;
+}
+
+/* Destaque do radio selecionado (versão clara) */
+[data-bs-theme="light"] .pacote-panel .form-check.selected {
+  background-color: rgba(0,0,0,.035) !important;
+  border-color: #0ac5d1 !important;
+}
+
+/* Ícone/box do item da lista de pacotes */
+[data-bs-theme="light"] .pacote-panel .form-check > div[style*="border-radius"] {
+  background: rgba(0,0,0,.06) !important;
+  box-shadow: none !important;
+}
+
+/* Botão de ajuda adapta para Light */
+[data-bs-theme="light"] .help-btn {
+  border-color: #d0d7de !important;
+  background: rgba(0,0,0,.04) !important;
+  color: #0b7285 !important;
+}
+[data-bs-theme="light"] .help-btn:hover {
+  background: rgba(0,0,0,.08) !important;
+}
+
+/* Texto miúdo/muted dentro do card no Light */
+[data-bs-theme="light"] .investment-container .text-muted { color: #6b7280 !important; }
+
+@@media (max-width: 767.98px) {
+
+  /* Garante que a página nunca passe de 100vw */
+  .page, #kt_wrapper, #kt_content {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Containers: não deixar ultrapassar a viewport */
+  .container, .container-fluid, .content, .content-wrapper {
+    max-width: 100% !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* Card principal (ex.: investimento/faturas) ocupa 100% e não estoura */
+  .card,
+  .card > .card-body,
+  .card > .card-header,
+  .card > .card-footer {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* Evita que sombras/raios cortem conteúdo no mobile */
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  /* Imagens/figuras dentro do card: fluidas */
+  .card img,
+  .card svg,
+  .card canvas,
+  .card video,
+  .card .figure,
+  .card .ratio,
+  .card .embed-responsive,
+  .card .card-img,
+  .card .card-img-top,
+  .card .card-img-bottom {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Títulos e textos grandes não devem quebrar layout */
+  .card h1, .card h2, .card h3, .card h4,
+  .card .display-1, .card .display-2, .card .display-3, .card .display-4 {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  /* Se existir algum wrapper do seu card (ex.: .invest-card / .faturas-card),
+     também força 100% da largura */
+  .invest-card, .faturas-card, .investment-card, .billing-card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Neutraliza larguras fixas comuns e inline (evita 600px/700px etc.) */
+  [style*="width:"],
+  .w-600, .w-700, .w-800, .w-900 {
+    width: auto !important;
+    max-width: 100% !important;
+  }
+
+  /* Linha/colunas: evita overflow por margem negativa */
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .col, [class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Grupos de botões não empurrarem para fora */
+  .btn-toolbar, .btn-group {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .btn {
+    min-height: 42px;
+  }
+  .btn-icon {
+    width: 40px; height: 40px;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+
+  /* Se houver algum scale aplicado no card, remove no mobile */
+  .card[style*="transform"],
+  [style*="transform: scale"] {
+    transform: none !important;
+  }
+
+  /* Table/embeds dentro do card não estourarem */
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+  }
+}
+
+@@media (max-width: 767.98px) {
+  /* Imagens dos pacotes mais compactas */
+  .package-card img,
+  .package img,
+  .package-logo,
+  .card .package-image {
+    max-width: 120px;   /* tamanho máximo da largura */
+    max-height: 120px;  /* mantém proporção */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;     /* centraliza */
+    display: block;
+  }
+
+  /* Espaço entre imagem e texto */
+  .package-card, .package {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Texto ao lado passa para baixo da imagem no mobile */
+  .package-card .package-info,
+  .package .package-info {
+    margin-top: 8px;
+    text-align: center;
+  }
+}
+
+@@media (max-width: 767.98px) {
+  /* Pacote: escopo direto do seu form/lista */
+  #pacoteForm img,
+  .pacote-panel img,
+  .form-check img[src*="/pacotes/pacote"] {
+    width: 40px !important;      /* mantém o tamanho do seu inline style */
+    max-width: 40px !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+
+  /* Se houver wrapper circular, não force largura total */
+  #pacoteForm .symbol,
+  .pacote-panel .symbol,
+  #pacoteForm .rounded-circle,
+  .pacote-panel .rounded-circle {
+    width: auto !important;
+    height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+  }
+
+  /* Texto ao lado não quebrar em coluna */
+  #pacoteForm .radio-pacote-label {
+    white-space: normal !important;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    writing-mode: horizontal-tb !important;
+  }
+}
+
+</style>
+
+
+<div class="container-fluid d-flex flex-column flex-lg-row justify-content-center align-items-start mt-4 gap-4">
+    
+    <style>
+        .help-btn{
+            width:38px;height:38px;border-radius:50%;
+            display:inline-grid;place-items:center;
+            border:1px solid #2a2a2a;background:rgba(0,255,255,.08);color:#00ffff;
+            transition:background .2s ease;
+        }
+        .help-btn:hover{ background:rgba(0,255,255,.15); }
+    </style>
+
+    <div class="investment-container position-relative" style="max-width: 650px;">
+        
+        <style>
+  :root{
+    --hv-z: 999999;                          /* z-index muito alto para não conflitar */
+    --hv-cyan: #00ffff;
+    --hv-cyan-20: rgba(0,255,255,.20);
+    --hv-border-08: rgba(255,255,255,.08);
+    --hv-border-12: rgba(255,255,255,.12);
+  }
+
+  /* ===== Raiz da micro-modal (SEM Bootstrap) ===== */
+  #hv_4d2b98e7_root { display:none; position:fixed; inset:0; z-index: var(--hv-z); isolation:isolate; }
+  #hv_4d2b98e7_root.hv-open { display:block; }
+
+  /* Overlay com leve blur/vidro */
+  #hv_4d2b98e7_root .hv-overlay{
+    position:fixed; inset:0;
+    background: rgba(0,0,0,.70);
+    backdrop-filter: blur(3px);
+  }
+
+  /* Caixa do diálogo (player) */
+  #hv_4d2b98e7_root .hv-dialog{
+    position:fixed; left:50%; top:50%;
+    transform:translate(-50%,-50%);
+    width:min(96vw, 1080px);
+    max-height: calc(100vh - 2rem);
+    display:flex; flex-direction:column; overflow:hidden;
+    background:#0e1116; border:1px solid var(--hv-border-08); border-radius:18px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.04) inset;
+  }
+
+  /* Cabeçalho minimal + título centralizado */
+  #hv_4d2b98e7_root .hv-header{
+    padding: .9rem 1.2rem; border-bottom:1px solid var(--hv-border-08);
+    display:flex; align-items:center; justify-content:center;
+  }
+  #hv_4d2b98e7_root .hv-title{
+    margin:0; color:#e6f2f2; font-size:1.06rem; letter-spacing:.2px;
+    text-shadow:0 0 8px rgba(0,255,255,.18);
+  }
+
+  /* Botão X flutuante (FORA da caixa), menor e no canto da janela */
+  #hv_4d2b98e7_root .hv-close-top{
+    position: fixed;                                   /* não fica sobre o vídeo */
+    right: 12px;
+    top: calc(env(safe-area-inset-top, 0px) + 12px);   /* respeita notch em mobile */
+    width: 32px; height: 32px; border-radius: 50%;
+    display: grid; place-items: center; cursor: pointer;
+    color: #fff; background: rgba(20,24,32,.80);
+    box-shadow: 0 0 0 1px var(--hv-border-12), 0 6px 18px rgba(0,0,0,.35);
+    backdrop-filter: blur(4px);
+    transition: transform .12s ease, box-shadow .15s ease, background .15s ease, color .15s ease;
+    z-index: calc(var(--hv-z) + 1);
+    user-select: none;
+  }
+  #hv_4d2b98e7_root .hv-close-top:hover{
+    transform: scale(1.05);
+    background: rgba(20,24,32,.92);
+    box-shadow: 0 0 0 1px var(--hv-cyan-20), 0 10px 22px rgba(0,255,255,.20);
+    color: var(--hv-cyan);
+  }
+  #hv_4d2b98e7_root .hv-close-top svg{ width: 16px; height: 16px; display:block; }
+
+  /* Corpo/player */
+  #hv_4d2b98e7_root .hv-body{ padding:0; background:#000; }
+  #hv_4d2b98e7_root .player-aspect{ aspect-ratio:16/9; width:100%; }
+  @@media (min-width: 992px){
+    #hv_4d2b98e7_root .player-aspect{ aspect-ratio:auto; height:62vh; }
+  }
+  #hv_4d2b98e7_root video{
+    width:100%; height:100%; display:block; object-fit:contain; background:#000;
+    opacity:1 !important; filter:none !important; pointer-events:auto !important;
+  }
+
+  /* Rodapé */
+  #hv_4d2b98e7_root .hv-footer{
+    border-top:1px solid var(--hv-border-08);
+    display:flex; justify-content:flex-end; gap:.6rem; padding:.9rem 1.2rem;
+  }
+  #hv_4d2b98e7_root .hv-btn{
+    appearance:none; border:0; cursor:pointer; border-radius:12px;
+    padding:.55rem 1rem; font-weight:600; letter-spacing:.2px; color:#0c1222;
+    background: linear-gradient(135deg, #a7f3ff, #44e0ff);
+    box-shadow: 0 8px 24px rgba(0,255,255,.18), 0 0 0 1px rgba(255,255,255,.06) inset;
+    transition: transform .12s ease, box-shadow .2s ease, filter .15s ease;
+  }
+  #hv_4d2b98e7_root .hv-btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 12px 28px rgba(0,255,255,.24), 0 0 0 1px rgba(255,255,255,.08) inset;
+    filter: saturate(1.05);
+  }
+
+  /* Evita scroll “vazando” na janela ao abrir */
+  html.hv-lock, body.hv-lock { overflow: hidden !important; }
+</style>
+
+
+<button id="hv_4d2b98e7_open" type="button" class="help-btn position-absolute top-0 end-0 m-2">?</button>
+
+
+
+
+<script>
+(function(){
+  const root   = document.getElementById("hv_4d2b98e7_root");
+  const video  = document.getElementById("hv_4d2b98e7_video");
+  const openBt = document.getElementById("hv_4d2b98e7_open");
+  if (!root || !openBt || !video) return;
+
+  // Portal para <body> (evita herdar opacity/transform dos pais)
+  if (root.parentElement !== document.body) document.body.appendChild(root);
+
+  const overlay    = root.querySelector('.hv-overlay');
+  const dialog     = root.querySelector('.hv-dialog');
+  const closeTop   = root.querySelector('.hv-close-top');
+  const closeNice  = root.querySelector('.js-hv-close');
+
+  const lockScroll = ()=> { document.documentElement.classList.add('hv-lock'); document.body.classList.add('hv-lock'); };
+  const freeScroll = ()=> { document.documentElement.classList.remove('hv-lock'); document.body.classList.remove('hv-lock'); };
+
+  function show() {
+    root.classList.add('hv-open');
+    root.setAttribute('aria-hidden','false');
+    lockScroll();
+
+    // Garante vídeo visível e tenta iniciar
+    video.style.opacity = '1';
+    video.style.filter  = 'none';
+    try { video.play().catch(()=>{}); } catch {}
+
+    // Foco de acessibilidade na caixa
+    setTimeout(()=> dialog?.focus?.(), 0);
+  }
+
+  function hide() {
+    try { video.pause(); } catch {}
+    root.classList.remove('hv-open');
+    root.setAttribute('aria-hidden','true');
+    freeScroll();
+  }
+
+  // Abertura
+  openBt.addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); show(); });
+
+  // Fechamentos
+  overlay .addEventListener('click', hide);
+  closeTop .addEventListener('click', hide);
+  closeNice.addEventListener('click', hide);
+  document.addEventListener('keydown', e => { if (root.classList.contains('hv-open') && e.key === 'Escape') hide(); });
+
+  // Evita que cliques dentro do diálogo fechem a modal
+  dialog.addEventListener('click', e => e.stopPropagation());
+})();
+</script>
+
+        <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MXg0cHNvOXE3M2g0dzEwY29wcHExOTRqMGp4djhwOHcyc3FmbjF5ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PJZMhdbkbqjDmJkiKr/giphy.gif" alt="cyber-invest" class="investment-header-img">
+        <h2>Bạn muốn đầu tư bao nhiêu hôm nay?</h2>
+        <p id="invest-msg" style="opacity: 1;">💡 Những ước mơ lớn bắt đầu từ hành động táo bạo.</p>
+
+        <form id="investment-form">
+            <input type="hidden" name="_token" value="yDnHNGv6IB6POr7uw1Pi4tp62j7eoxC2l0y4vRB2" autocomplete="off">            <input type="number" id="amountInput" name="amount" step="1" min="10" required="">
+            <button type="submit" class="invest-btn" id="submitBtn">
+                <span id="btnText"><i class="fas fa-rocket"></i> Xác nhận</span>
+                <span id="btnSpinner" class="spinner-border spinner-border-sm ms-2 d-none" role="status" aria-hidden="true"></span>
+            </button>
+        </form>
+    </div>
+
+    <div class="investment-card pacote-panel">
+        <h5 class="mb-3 text-white">
+            <i class="fas fa-box-open me-1"></i> Choose a package        </h5>
+
+        <form id="pacoteForm">
+            
+            <div class="form-check d-flex align-items-center gap-2 mb-3 selected">
+                <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacoteCustom" value="custom" checked="">
+
+                <div style="width: 40px; height: 40px; border-radius: 8px; background: rgba(0,255,255,0.08); display: flex; align-items: center; justify-content: center; box-shadow: 0 0 5px #00e6e6;">
+                    <i class="fas fa-pen text-info"></i>
+                </div>
+
+                <label class="form-check-label radio-pacote-label" for="pacoteCustom" style="cursor: pointer;">
+                    Gói tùy chỉnh                </label>
+            </div>
+
+            
+                            <div class="form-check d-flex align-items-center gap-2 mb-3">
+                    <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacote100" value="100">
+
+                    <img src="https://genesis-tech.net/assets/media/img/pacotes/pacote0.png" alt="Genesis Miễn Phí" style="width: 40px; height: auto; border-radius: 8px; box-shadow: 0 0 5px #00e6e6;">
+
+                    <label class="form-check-label radio-pacote-label" for="pacote100" style="cursor: pointer;">
+                        Bronze - <strong>$100</strong>
+                    </label>
+                </div>
+                            <div class="form-check d-flex align-items-center gap-2 mb-3">
+                    <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacote500" value="500">
+
+                    <img src="https://genesis-tech.net/assets/media/img/pacotes/pacote1.png" alt="Genesis Khởi Đầu" style="width: 40px; height: auto; border-radius: 8px; box-shadow: 0 0 5px #00e6e6;">
+
+                    <label class="form-check-label radio-pacote-label" for="pacote500" style="cursor: pointer;">
+                        Silver - <strong>$500</strong>
+                    </label>
+                </div>
+                            <div class="form-check d-flex align-items-center gap-2 mb-3">
+                    <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacote1000" value="1000">
+
+                    <img src="https://genesis-tech.net/assets/media/img/pacotes/pacote2.png" alt="Genesis Cơ Bản" style="width: 40px; height: auto; border-radius: 8px; box-shadow: 0 0 5px #00e6e6;">
+
+                    <label class="form-check-label radio-pacote-label" for="pacote1000" style="cursor: pointer;">
+                        Gold - <strong>$1.000</strong>
+                    </label>
+                </div>
+                            <div class="form-check d-flex align-items-center gap-2 mb-3">
+                    <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacote2500" value="2500">
+
+                    <img src="https://genesis-tech.net/assets/media/img/pacotes/pacote3.png" alt="Genesis Nhẹ" style="width: 40px; height: auto; border-radius: 8px; box-shadow: 0 0 5px #00e6e6;">
+
+                    <label class="form-check-label radio-pacote-label" for="pacote2500" style="cursor: pointer;">
+                        Platinum - <strong>$2.500</strong>
+                    </label>
+                </div>
+                            <div class="form-check d-flex align-items-center gap-2 mb-3">
+                    <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacote5000" value="5000">
+
+                    <img src="https://genesis-tech.net/assets/media/img/pacotes/pacote4.png" alt="Genesis Chuyên Nghiệp" style="width: 40px; height: auto; border-radius: 8px; box-shadow: 0 0 5px #00e6e6;">
+
+                    <label class="form-check-label radio-pacote-label" for="pacote5000" style="cursor: pointer;">
+                       Emerald - <strong>$5.000</strong>
+                    </label>
+                </div>
+                            <div class="form-check d-flex align-items-center gap-2 mb-3">
+                    <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacote10000" value="10000">
+
+                    <img src="https://genesis-tech.net/assets/media/img/pacotes/pacote5.png" alt="Genesis Nâng Cao" style="width: 40px; height: auto; border-radius: 8px; box-shadow: 0 0 5px #00e6e6;">
+
+                    <label class="form-check-label radio-pacote-label" for="pacote10000" style="cursor: pointer;">
+                        Sapphire - <strong>$10.000</strong>
+                    </label>
+                </div>
+                            <div class="form-check d-flex align-items-center gap-2 mb-3">
+                    <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacote25000" value="25000">
+
+                    <img src="https://genesis-tech.net/assets/media/img/pacotes/pacote6.png" alt="Genesis VIP" style="width: 40px; height: auto; border-radius: 8px; box-shadow: 0 0 5px #00e6e6;">
+
+                    <label class="form-check-label radio-pacote-label" for="pacote25000" style="cursor: pointer;">
+                        Ruby - <strong>$25.000</strong>
+                    </label>
+                </div>
+                            <div class="form-check d-flex align-items-center gap-2 mb-3">
+                    <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacote50000" value="50000">
+
+                    <img src="https://genesis-tech.net/assets/media/img/pacotes/pacote7.png" alt="Genesis Ngôi Sao Độc Quyền" style="width: 40px; height: auto; border-radius: 8px; box-shadow: 0 0 5px #00e6e6;">
+
+                    <label class="form-check-label radio-pacote-label" for="pacote50000" style="cursor: pointer;">
+                        Diamond - <strong>$50.000</strong>
+                    </label>
+                </div>
+                 <div class="form-check d-flex align-items-center gap-2 mb-3">
+                    <input class="form-check-input radio-pacote mt-0" type="radio" name="pacoteValor" id="pacote100000" value="100000">
+
+                    <img src="https://genesis-tech.net/assets/media/img/pacotes/pacote7.png" alt="Genesis Ngôi Sao Độc Quyền" style="width: 40px; height: auto; border-radius: 8px; box-shadow: 0 0 5px #00e6e6;">
+
+                    <label class="form-check-label radio-pacote-label" for="pacote100000" style="cursor: pointer;">
+                        CrownDiamond - <strong>$100.000</strong>
+                    </label>
+                </div>
+                    </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: linear-gradient(145deg, #111, #1c1c1c); border: 1px solid #00e6e6; border-radius: 20px; color: #e0f7fa; box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="paymentModalLabel" style="color: #00e6e6;">
+          <i class="fas fa-wallet me-2"></i>Hướng dẫn thanh toán        </h5>
+      </div>
+      <div class="modal-body">
+        <div class="row align-items-center text-start" id="paymentDetails">
+          <p>Đang tải thông tin thanh toán...</p>
+        </div>
+      </div>
+      <div class="modal-footer border-0 justify-content-center">
+        <button type="button" class="btn btn-outline-info" id="btnFecharModalPayment" data-bs-dismiss="modal" style="border-radius: 10px;">
+          <i class="fas fa-times-circle"></i> Đóng        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    document.getElementById('investment-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const submitBtn = document.getElementById('submitBtn');
+        const btnText = document.getElementById('btnText');
+        const btnSpinner = document.getElementById('btnSpinner');
+
+        submitBtn.disabled = true;
+        btnText.classList.add('opacity-50');
+        btnSpinner.classList.remove('d-none');
+
+        const amount = document.getElementById('amountInput').value;
+        const token = document.querySelector('input[name="_token"]').value;
+
+        fetch("https://genesis-tech.net/investment/custom-submit", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': token
+            },
+            body: JSON.stringify({ amount: amount })
+        })
+        .then(response => response.json())
+        .then(data => {
+            let html;
+
+            if (data.error) {
+                html = `<p class="text-danger">${data.error}</p>`;
+            } else {
+                const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(data.coinpayments_adress)}`;
+
+                html = `
+                    <div class="col-md-6">
+                        <table class="table table-borderless text-white" style="table-layout: fixed; width: 100%;">
+                            <tbody>
+                                <tr>
+                                    <td style="white-space: nowrap; width: 40%;">
+                                        <i class="fas fa-hashtag text-info me-1"></i> 
+                                        <strong class="text-info">Mã đơn hàng</strong>
+                                    </td>
+                                    <td style="white-space: nowrap;">
+                                        <code>${data.id}</code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="white-space: nowrap;">
+                                        <i class="fas fa-dollar-sign text-info me-1"></i> 
+                                        <strong class="text-info">Số tiền</strong>
+                                    </td>
+                                    <td style="white-space: nowrap;">
+                                        <code>$${data.valor}</code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="white-space: nowrap;">
+                                        <i class="fas fa-coins text-info me-1"></i> 
+                                        <strong class="text-info">Tiền tệ</strong>
+                                    </td>
+                                    <td style="white-space: nowrap;">
+                                        <code>${data.coinpayments_currency_to}</code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="white-space: nowrap;">
+                                        <i class="fas fa-qrcode text-info me-1"></i> 
+                                        <strong class="text-info">Ví</strong>
+                                    </td>
+                                    <td class="d-flex align-items-center" style="white-space: nowrap;">
+                                        <code style="word-break: break-word;">
+                                            ${data.coinpayments_adress.slice(0, 10)}...${data.coinpayments_adress.slice(-6)}
+                                        </code>
+                                        <button id="copyBtn${data.id}" class="btn btn-sm btn-outline-light ms-2" onclick="copyWallet('${data.coinpayments_adress}', 'copyBtn${data.id}')">
+                                            <i class="fas fa-copy"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6 text-center mt-4 mt-md-0">
+                        <img src="${qrCodeUrl}" alt="QR Code" class="img-fluid mb-3" style="max-width: 200px; border: 4px solid #00e6e6; border-radius: 15px;">
+                        <p class="text-muted small">Quét bằng ví của bạn</p>
+                    </div>
+                `;
+            }
+
+            document.getElementById('paymentDetails').innerHTML = html;
+            const modal = new bootstrap.Modal(document.getElementById('paymentModal'));
+            modal.show();
+        })
+        .catch(error => {
+            submitBtn.disabled = false;
+            btnText.classList.remove('opacity-50');
+            btnSpinner.classList.add('d-none');
+            document.getElementById('paymentDetails').innerHTML = `<p class="text-danger">Đã xảy ra lỗi. Vui lòng thử lại sau.</p>`;
+            const modal = new bootstrap.Modal(document.getElementById('paymentModal'));
+            modal.show();
+        });
+    });
+</script>
+
+
+<script>
+    const phrases = [
+        "💡 Những ước mơ lớn bắt đầu từ hành động táo bạo.",
+        "🚀 Tương lai của bạn chỉ cách một bước.",
+        "🌐 Thế giới đang đầu tư — đến lượt bạn.",
+        "🧠 Dòng tiền thông minh chảy về đây.",
+        "🏰 Một khoản đầu tư, khởi đầu cho đế chế của bạn."
+    ];
+
+    setInterval(() => {
+        const msg = document.getElementById("invest-msg");
+        msg.style.opacity = 0;
+        setTimeout(() => {
+            msg.textContent = phrases[Math.floor(Math.random() * phrases.length)];
+            msg.style.opacity = 1;
+        }, 300);
+    }, 5000);
+</script>
+
+<script>
+    function copyWallet(text, btnId) {
+        navigator.clipboard.writeText(text).then(() => {
+            const btn = document.getElementById(btnId);
+            const originalIcon = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check text-success"></i>';
+
+            btn.classList.remove('btn-outline-light');
+            btn.classList.add('btn-success');
+
+            setTimeout(() => {
+                btn.innerHTML = originalIcon;
+                btn.classList.remove('btn-success');
+                btn.classList.add('btn-outline-light');
+            }, 2000);
+        });
+    }
+</script>
+
+<script>
+    const paymentModal = document.getElementById('paymentModal');
+    paymentModal.addEventListener('hidden.bs.modal', () => {
+        const submitBtn = document.getElementById('submitBtn');
+        const btnText = document.getElementById('btnText');
+        const btnSpinner = document.getElementById('btnSpinner');
+
+        submitBtn.disabled = false;
+        btnText.classList.remove('opacity-50');
+        btnSpinner.classList.add('d-none');
+    });
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const closeBtnPayment = document.getElementById("btnFecharModalPayment");
+    if (closeBtnPayment) {
+        closeBtnPayment.addEventListener("click", () => {
+            const modalEl = document.getElementById("paymentModal");
+            const instance = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl);
+            instance.hide();
+        });
+    }
+});
+</script>
+
+<script>
+    function confirmarInvestimento(valor) {
+        const submitBtn = document.getElementById('submitBtn');
+        const btnText = document.getElementById('btnText');
+        const btnSpinner = document.getElementById('btnSpinner');
+
+        submitBtn.disabled = true;
+        btnText.classList.add('opacity-50');
+        btnSpinner.classList.remove('d-none');
+
+        const token = document.querySelector('input[name="_token"]').value;
+
+        fetch("https://genesis-tech.net/investment/custom-submit", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': token
+            },
+            body: JSON.stringify({ amount: valor })
+        })
+        .then(response => response.json())
+        .then(data => {
+            let html;
+
+            if (data.error) {
+                html = `<p class="text-danger">${data.error}</p>`;
+            } else {
+                const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(data.coinpayments_adress)}`;
+
+                html = `
+                    <div class="col-md-6">
+                        <table class="table table-borderless text-white">
+                            <tbody>
+                                <tr><td><strong class="text-info">Mã đơn hàng</strong></td><td><code>${data.id}</code></td></tr>
+                                <tr><td><strong class="text-info">Số tiền</strong></td><td><code>$${data.valor}</code></td></tr>
+                                <tr><td><strong class="text-info">Tiền tệ</strong></td><td><code>${data.coinpayments_currency_to}</code></td></tr>
+                                <tr><td><strong class="text-info">Ví</strong></td>
+                                    <td class="d-flex align-items-center">
+                                        <code>${data.coinpayments_adress.slice(0, 10)}...${data.coinpayments_adress.slice(-6)}</code>
+                                        <button id="copyBtn${data.id}" class="btn btn-sm btn-outline-light ms-2" onclick="copyWallet('${data.coinpayments_adress}', 'copyBtn${data.id}')">
+                                            <i class="fas fa-copy"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6 text-center mt-4 mt-md-0">
+                        <img src="${qrCodeUrl}" alt="QR Code" class="img-fluid mb-3" style="max-width: 200px; border: 4px solid #00e6e6; border-radius: 15px;">
+                        <p class="text-muted small">Quét bằng ví của bạn</p>
+                    </div>
+                `;
+            }
+
+            document.getElementById('paymentDetails').innerHTML = html;
+            const modal = new bootstrap.Modal(document.getElementById('paymentModal'));
+            modal.show();
+        })
+        .catch(error => {
+            submitBtn.disabled = false;
+            btnText.classList.remove('opacity-50');
+            btnSpinner.classList.add('d-none');
+            document.getElementById('paymentDetails').innerHTML = `<p class="text-danger">Đã xảy ra lỗi. Vui lòng thử lại sau.</p>`;
+            const modal = new bootstrap.Modal(document.getElementById('paymentModal'));
+            modal.show();
+        });
+    }
+</script>
+
+
+<script>
+function updateSelectionHighlight() {
+    document.querySelectorAll('.form-check').forEach(el => el.classList.remove('selected'));
+    document.querySelectorAll('.radio-pacote:checked').forEach(input => {
+        input.closest('.form-check').classList.add('selected');
+    });
+}
+</script>
+
+
+<script>
+    document.querySelectorAll('.radio-pacote').forEach(radio => {
+        radio.addEventListener('change', function () {
+            document.getElementById('amountInput').value = this.value;
+        });
+    });
+
+    const amountInput = document.getElementById('amountInput');
+    amountInput.addEventListener('input', function () {
+    const customValue = parseFloat(this.value);
+    let matched = false;
+
+    document.querySelectorAll('.radio-pacote').forEach(radio => {
+        if (parseFloat(radio.value) === customValue) {
+            if (!radio.checked) radio.checked = true;
+            matched = true;
+        }
+    });
+
+    if (!matched) {
+        const customRadio = document.getElementById('pacoteCustom');
+        if (!customRadio.checked) customRadio.checked = true;
+    }
+
+    updateSelectionHighlight();
+});
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const radios = document.querySelectorAll('.radio-pacote');
+
+    function updateSelectionHighlight() {
+        document.querySelectorAll('.form-check').forEach(el => el.classList.remove('selected'));
+        document.querySelectorAll('.radio-pacote:checked').forEach(input => {
+            input.closest('.form-check').classList.add('selected');
+        });
+    }
+
+    radios.forEach(radio => {
+        radio.addEventListener('change', updateSelectionHighlight);
+    });
+
+    // inicializa seleção visual ao carregar
+    updateSelectionHighlight();
+});
+</script>
+
+
+<script>
+    document.getElementById('investment-form').addEventListener('submit', function(e) {
+        const amountInput = document.getElementById('amountInput');
+        const amount = parseFloat(amountInput.value);
+
+        if (isNaN(amount) || amount < 10) {
+            e.preventDefault();
+            amountInput.setCustomValidity("The value must be greater than or equal to 10.");
+            amountInput.reportValidity();
+            return;
+        }
+
+        amountInput.setCustomValidity(""); // limpa o erro se estiver válido
+    });
+</script>
+					</div>
+				</div>
+			</div>
+			<div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+				<div class="container-xxl d-flex flex-column flex-md-row align-items-center justify-content-between">
+					<div class="text-gray-900 order-2 order-md-1">
+						<span class="text-muted fw-semibold me-1">2025©</span>
+						<a href="https://genesis-tech.net" target="_blank" class="text-gray-800 text-hover-primary">Genesis</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div id="hv_4d2b98e7_root" aria-hidden="true" role="dialog" aria-modal="true" data-hv="hv_4d2b98e7">
+  <div class="hv-overlay"></div>
+
+  
+  <button type="button" class="hv-close-top" aria-label="Đóng">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 6L6 18M6 6l12 12"></path>
+    </svg>
+  </button>
+
+  <div class="hv-dialog" role="document" tabindex="-1">
+    <div class="hv-header">
+      <h5 class="hv-title">Hướng dẫn</h5>
+    </div>
+
+    <div class="hv-body">
+      <div class="player-aspect">
+        <video id="hv_4d2b98e7_video" controls="" playsinline="" preload="metadata" poster="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/thumbs/t08-vn.png" src="https://cdnexchange-gzgmdwebe6dee9hs.z02.azurefd.net/personal-documents/t08-vn.mp4"></video>
+      </div>
+    </div>
+
+    <div class="hv-footer">
+      <button type="button" class="hv-btn js-hv-close">Đóng</button>
+    </div>
+  </div>
+</div>
+<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+	<i class="ki-duotone ki-arrow-up">
+		⬆️
+	</i>
+</div>
+
+
+
+
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg></body>
