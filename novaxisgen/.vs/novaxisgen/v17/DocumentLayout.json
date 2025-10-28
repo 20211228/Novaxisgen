@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "D:\\C#Source\\novaxisgen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\views\\informations\\accountinfor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:views\\informations\\accountinfor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\views\\landingpages\\landingpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:views\\landingpages\\landingpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\controllers\\investmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:controllers\\investmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\views\\logins\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:views\\logins\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\services\\transactionscannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:services\\transactionscannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\services\\etherscanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:services\\etherscanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\controllers\\logins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:controllers\\logins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\views\\investments\\investnow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:views\\investments\\investnow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\services\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:services\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|d:\\c#source\\novaxisgen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D49F3017-2E9C-4F7C-A289-7C9FB1CDA50A}|Novaxisgen.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +54,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LandingPage.cshtml",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Views\\LandingPages\\LandingPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\LandingPages\\LandingPage.cshtml",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\Views\\LandingPages\\LandingPage.cshtml",
+              "RelativeToolTip": "Views\\LandingPages\\LandingPage.cshtml",
+              "ViewState": "AQIAAD0DAAAAAAAAAAAAAF8DAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T04:45:09.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Views\\Logins\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Logins\\SignUp.cshtml",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\Views\\Logins\\SignUp.cshtml",
+              "RelativeToolTip": "Views\\Logins\\SignUp.cshtml",
+              "ViewState": "AQIAANgBAAAAAAAAAAAAAOgBAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T04:29:01.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InvestNow.cshtml",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Views\\Investments\\InvestNow.cshtml",
+              "RelativeDocumentMoniker": "Views\\Investments\\InvestNow.cshtml",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\Views\\Investments\\InvestNow.cshtml",
+              "RelativeToolTip": "Views\\Investments\\InvestNow.cshtml",
+              "ViewState": "AQIAAMQDAAAAAAAAAAAAAAcEAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T04:00:31.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EtherscanService.cs",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Services\\EtherscanService.cs",
+              "RelativeDocumentMoniker": "Services\\EtherscanService.cs",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\Services\\EtherscanService.cs",
+              "RelativeToolTip": "Services\\EtherscanService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T03:48:18.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionScannerService.cs",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Services\\TransactionScannerService.cs",
+              "RelativeDocumentMoniker": "Services\\TransactionScannerService.cs",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\Services\\TransactionScannerService.cs",
+              "RelativeToolTip": "Services\\TransactionScannerService.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T03:47:30.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvestmentsController.cs",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Controllers\\InvestmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvestmentsController.cs",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\Controllers\\InvestmentsController.cs",
+              "RelativeToolTip": "Controllers\\InvestmentsController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T04:02:31.567Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -34,40 +144,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountInfor.cshtml",
-              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Views\\Informations\\AccountInfor.cshtml",
-              "RelativeDocumentMoniker": "Views\\Informations\\AccountInfor.cshtml",
-              "ToolTip": "D:\\C#Source\\novaxisgen\\Views\\Informations\\AccountInfor.cshtml",
-              "RelativeToolTip": "Views\\Informations\\AccountInfor.cshtml",
-              "ViewState": "AQIAAGgBAAAAAAAAAAAlwG0BAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-18T07:42:04.558Z",
+              "DocumentIndex": 5,
+              "Title": "Logins.cs",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Controllers\\Logins.cs",
+              "RelativeDocumentMoniker": "Controllers\\Logins.cs",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\Controllers\\Logins.cs",
+              "RelativeToolTip": "Controllers\\Logins.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAuwEEAAACSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T07:02:28.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\C#Source\\novaxisgen\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADkCAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-17T08:04:58.602Z"
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T08:36:25.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T03:35:15.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WalletService.cs",
+              "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Services\\WalletService.cs",
+              "RelativeDocumentMoniker": "Services\\WalletService.cs",
+              "ToolTip": "D:\\C#Source\\novaxisgen\\Services\\WalletService.cs",
+              "RelativeToolTip": "Services\\WalletService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T03:17:01.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C#Source\\novaxisgen\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\C#Source\\novaxisgen\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAHEBAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkBAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-17T03:57:57.137Z",
+              "WhenOpened": "2025-10-23T10:17:42.746Z",
               "EditorCaption": ""
             }
           ]

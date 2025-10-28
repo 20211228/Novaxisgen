@@ -1,0 +1,21 @@
+﻿@model Novaxisgen.Models.CayNhiPhanViewModel
+
+@if (Model != null)
+{
+    <ul>
+        <li>
+            <div>@Model.HoTen (@Model.Username)</div>
+            @if (Model.Trai != null || Model.Phai != null)
+            {
+                <ul>
+                    <li>
+                        @Html.Partial("_BinaryNode", Model.Trai)
+                    </li>
+                    <li>
+                        @Html.Partial("_BinaryNode", Model.Phai)
+                    </li>
+                </ul>
+            }
+        </li>
+    </ul>
+}

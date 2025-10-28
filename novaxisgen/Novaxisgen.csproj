@@ -7,11 +7,35 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Investments\TransferMoney.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Views\Home\Index.cshtml~RF135f020a.TMP" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\css\duotone\fonts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Nethereum.Signer" Version="5.0.0" />
+    <PackageReference Include="Nethereum.Web3" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Investments\TransferMoney.cshtml" />
   </ItemGroup>
 
 </Project>

@@ -373,8 +373,8 @@
             <div class="d-flex flex-center w-lg-50 pt-15 pt-lg-0 px-10">
                 <div class="d-flex flex-center flex-lg-start flex-column">
                     <!--begin::Logo-->
-                    <a href="https://genesis-tech.net/login" class="mb-7">
-                        <img alt="Logo" src="/Image/demo2.png" class="h-80px">
+                    <a href="" class="mb-7">
+                        <img alt="Logo" src="/Image/Logo.png" class="h-300px">
                     </a>
                     <!--end::Logo-->
                     <!--begin::Title-->
@@ -391,8 +391,9 @@
                     <div class="d-flex flex-center flex-column flex-column-fluid px-lg-10 pb-15 pb-lg-20">
 
                         <!--begin::Form / Alert-->
-                        <form class="form w-100 auth-form fv-plugins-bootstrap5 fv-plugins-framework" novalidate="novalidate" id="kt_sign_up_form" data-kt-redirect-url="/login" action="#">
-                            <input type="hidden" name="_token" value="y3QlsQpH7lQzvai1ePRjjg2mpe4vOXTZjvgi1i76" autocomplete="off">                                <input type="hidden" name="id_businessintroductor" value="eyJpdiI6IldQWXJOdWRvZC81cjJNUGpjM21vd0E9PSIsInZhbHVlIjoiM3Q1TXlsMms3ZG1pajVPODlEcFNHdz09IiwibWFjIjoiMzExMmMwM2RjNGQ2NDE4MTBkODEyODliYTM5ZGRjM2RmZTAzMjJjMzlmMjU1YmQzYjhiYmEzZTAwZTA1ZjY2MSIsInRhZyI6IiJ9">
+                        <form action="/Logins/SignUpNew" method="post">
+                            <input type="hidden" name="_token" value="y3QlsQpH7lQzvai1ePRjjg2mpe4vOXTZjvgi1i76" autocomplete="off">                                
+                            <input type="hidden" name="id_businessintroductor" value="eyJpdiI6IldQWXJOdWRvZC81cjJNUGpjM21vd0E9PSIsInZhbHVlIjoiM3Q1TXlsMms3ZG1pajVPODlEcFNHdz09IiwibWFjIjoiMzExMmMwM2RjNGQ2NDE4MTBkODEyODliYTM5ZGRjM2RmZTAzMjJjMzlmMjU1YmQzYjhiYmEzZTAwZTA1ZjY2MSIsInRhZyI6IiJ9">
 
                             <!--begin::Heading-->
                             <div class="text-center mb-11">
@@ -402,7 +403,7 @@
                             <!--end::Heading-->
                             <!--begin::Sponsor login (display only)-->
                             <div class="fv-row mb-8">
-                                <input type="text" autocomplete="off" value="trimy168" class="form-control text-center w-100" style="background-color:#74c3f4" disabled="">
+                                <input type="text" autocomplete="off" value="@ViewBag.Tencha" class="form-control text-center w-100" style="background-color:#74c3f4" disabled="">
                             </div>
                             <!--end::Sponsor login-->
                             <!--begin::Language select (NEW, abaixo do login)-->
@@ -437,8 +438,8 @@
                                         Deutsch
                                     </option>
                                 </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-21-rqja" style="width: 100%;">
-                                    
-                                
+
+
                             </div>
 
                             <!--end::Language select-->
@@ -450,7 +451,7 @@
                             <!--end::Email-->
                             <!--begin::Username-->
                             <div class="fv-row mb-8 fv-plugins-icon-container">
-                                <input type="text" placeholder="Username" name="login" autocomplete="off" class="form-control bg-transparent w-100">
+                                <input type="text" placeholder="Username" name="username" autocomplete="off" class="form-control bg-transparent w-100">
                                 <div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div>
                             </div>
                             <!--end::Username-->
@@ -458,7 +459,7 @@
                             <div class="fv-row mb-8 fv-plugins-icon-container" data-kt-password-meter="true">
                                 <div class="mb-1">
                                     <div class="position-relative mb-3">
-                                        <input class="form-control bg-transparent w-100" type="password" placeholder="Password" name="password" autocomplete="off">
+                                        <input class="form-control bg-transparent w-100" type="password" placeholder="Password" name="matkhau" autocomplete="off">
                                         <span class="btn btn-sm btn-icon position-absolute translate-middle top-50 end-0 me-n2" data-kt-password-meter-control="visibility">
                                             <i class="ki-duotone ki-eye-slash fs-2"></i>
                                             <i class="ki-duotone ki-eye fs-2 d-none"></i>
@@ -481,11 +482,18 @@
                             </div>
                             <!--end::Confirm Password-->
                             <!--begin::Wallet-->
-                            <div class="fv-row mb-8 fv-plugins-icon-container">
-                                <input type="text" placeholder="Wallet Address (USDT.BEP20)" name="wallet_address" autocomplete="off" class="form-control bg-transparent w-100">
+                            @* <div class="fv-row mb-8 fv-plugins-icon-container">
+                                <input type="text" placeholder="Wallet Address (USDT.BEP20)" name="diachivi" autocomplete="off" class="form-control bg-transparent w-100">
                                 <div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div>
-                            </div>
+                            </div> *@
                             <!--end::Wallet-->
+                            @if (ViewBag.sponsorId != null)
+                            {
+                                <input type="hidden" name="sponsorId" value="@ViewBag.SponsorID" />
+                                <input type="hidden" name="nhanh" value="@ViewBag.Nhanh" />
+                                <input type="hidden" name="placementId" value="@ViewBag.PlacementId" />
+                            }
+
                             <!--begin::Submit-->
                             <div class="d-grid mb-10">
                                 <button type="submit" id="kt_sign_up_submit" class="btn" style="background-color:#0688d2">

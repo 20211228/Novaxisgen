@@ -61,6 +61,174 @@
       "PackagePath": "staticwebassets\\Image\\IndexImage\\news-014.png"
     },
     {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\01-Chat.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\01-Chat.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\02-Chat.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\02-Chat.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\1(1).jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\1(1).jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\1.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\1.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\1.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\1.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\2(1).jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\2(1).jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\2.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\2.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\2.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\2.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\24px.svg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\24px.svg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\3(1).jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\3(1).jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\3.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\3.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\3.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\3.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\4.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\4.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\4.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\4.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\5.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\5.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\6.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\6.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\about-one.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\about-one.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\about-two.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\about-two.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\app-mockup.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\app-mockup.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\bank.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\bank.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\bank2.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\bank2.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\bitcoin.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\bitcoin.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\buy.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\buy.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\cash.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\cash.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\debit.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\debit.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\ethereum.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\ethereum.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\faq.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\faq.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\industry.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\industry.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\insurance.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\insurance.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\logo.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\logo.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\man.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\man.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\mastercard.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\mastercard.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\secure.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\secure.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\team1.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\team1.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\team2.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\team2.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\team3.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\team3.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\team4.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\team4.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\team5.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\team5.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\team6.jpg",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\team6.jpg"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\visa.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\visa.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Landingpages\\wallet.png",
+      "PackagePath": "staticwebassets\\Image\\Landingpages\\wallet.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\Logo.png",
+      "PackagePath": "staticwebassets\\Image\\Logo.png"
+    },
+    {
       "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\demo2.png",
       "PackagePath": "staticwebassets\\Image\\demo2.png"
     },
@@ -103,6 +271,58 @@
     {
       "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\Image\\pacotes\\empty.png",
       "PackagePath": "staticwebassets\\Image\\pacotes\\empty.png"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\animate.css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss\\animate.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\css(1)",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\css(2)",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\m=el_main_css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\materialdesignicons-min.css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss\\materialdesignicons-min.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\owl.theme.css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss\\owl.theme.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\style-two.css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss\\style-two.css"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\Ladingpagescss\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\Ladingpagescss\\themify-icons.css"
     },
     {
       "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\css\\binary.css",
@@ -283,6 +503,106 @@
     {
       "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Animated.js",
       "PackagePath": "staticwebassets\\js\\Animated.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\app.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\app.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\common.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\common.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\controls.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\controls.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\countdown.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\countdown.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\geometry.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\geometry.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\init_embed.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\init_embed.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\log.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\log.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\main.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\main.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\map.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\map.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\onion.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\onion.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\overlay.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\overlay.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\particles.min.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\particles.min.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\scripts.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\scrolltopcontrol.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\scrolltopcontrol.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\search.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\search.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\search_impl.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\search_impl.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\util.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\util.js"
+    },
+    {
+      "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\Landingpagejs\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\Landingpagejs\\wow.min.js"
     },
     {
       "Id": "D:\\C#Source\\novaxisgen\\wwwroot\\js\\basic.js",
